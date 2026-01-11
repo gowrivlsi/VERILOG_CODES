@@ -1,0 +1,61 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/VERILOG CODES/BEHAVIOURAL  MODEL/SEQUENTIAL CRTS/COUNTERS/DOWN-COUNTER
+T_opt
+!s110 1758093866
+V1ZcDkOz<JA3ATbTfDnA`[1
+04 11 4 work dcounter_tb fast 0
+=1-f66444b558ee-68ca622a-2ef-4d10
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vdcounter
+Z2 !s110 1758093860
+!i10b 1
+!s100 IdDbDN]:3DcKPW1D2G2Dg1
+ITW4g2YYo7mLKd5J:ohG7m0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1758093855
+Z5 8dcounter.v
+Z6 Fdcounter.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1758093860.000000
+Z9 !s107 dcounter.v|
+Z10 !s90 -reportprogress|300|dcounter.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vdcounter_tb
+R2
+!i10b 1
+!s100 <M=DZO;:V_3]=31>0J4bd2
+I^acfeGhg`O9c`:d<RELN:3
+R3
+R0
+R4
+R5
+R6
+L0 16
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1

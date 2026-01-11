@@ -1,0 +1,61 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/VERILOG CODES/BEHAVIOURAL  MODEL/SEQUENTIAL CRTS/SHIFT REGISTERS/SIPO REGISTER
+T_opt
+!s110 1758110470
+VmnH<j7;ie6^Z;ZU;IfUFI2
+04 7 4 work sipo_tb fast 0
+=1-f66444b558ee-68caa306-14e-888
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vsipo
+Z2 !s110 1758110468
+!i10b 1
+!s100 9ozRESUTBfTVhnb95Y>;^3
+I0cSkVMaQHGd?mC01Aakmk3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1758110465
+Z5 8sipo.v
+Z6 Fsipo.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1758110468.000000
+Z9 !s107 sipo.v|
+Z10 !s90 -reportprogress|300|sipo.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vsipo_tb
+R2
+!i10b 1
+!s100 4JT3Ym?ZcGbW]>JPD1XPo0
+IH1[YL]8e@YDK1UEz0[m2O3
+R3
+R0
+R4
+R5
+R6
+L0 40
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1

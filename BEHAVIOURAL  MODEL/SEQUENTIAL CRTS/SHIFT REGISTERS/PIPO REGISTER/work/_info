@@ -1,0 +1,61 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/VERILOG CODES/BEHAVIOURAL  MODEL/SEQUENTIAL CRTS/SHIFT REGISTERS/PIPO REGISTER
+T_opt
+Z1 !s110 1758118542
+VH8730NAGR8ZZzZ`C3=Oi31
+04 7 4 work pipo_tb fast 0
+=1-9ac3c3f168e9-68cac28e-32b-1804
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vpipo
+R1
+!i10b 1
+!s100 Ycl4al6T0M9bZRA:^e03W1
+I76Z9E8ge_Q6P3;?bGYl4O1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1758118535
+Z5 8pipo.v
+Z6 Fpipo.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1758118542.000000
+Z9 !s107 pipo.v|
+Z10 !s90 -reportprogress|300|pipo.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vpipo_tb
+R1
+!i10b 1
+!s100 5Yj1ObFLF:9VEgbZ_PjF<0
+IDdD5?kY64i4cP3_Y[m5VJ2
+R3
+R0
+R4
+R5
+R6
+L0 25
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R2

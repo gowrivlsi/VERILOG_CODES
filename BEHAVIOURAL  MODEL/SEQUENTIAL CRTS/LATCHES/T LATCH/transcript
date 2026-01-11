@@ -1,0 +1,97 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:25:51 on Sep 09,2025
+# vlog -reportprogress 300 tl.v "+acc" 
+# -- Compiling module tl
+# -- Compiling module tl_tb
+# 
+# Top level modules:
+# 	tl_tb
+# End time: 16:25:51 on Sep 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tl_tb 
+# Start time: 16:25:51 on Sep 09,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.tl_tb(fast)
+# Loading work.tl(fast)
+# clk=0 rst=0 tin=0 q=0 qbar=1 Time=0
+# clk=1 rst=0 tin=1 q=0 qbar=1 Time=5
+# clk=0 rst=1 tin=1 q=0 qbar=1 Time=10
+# clk=1 rst=1 tin=1 q=1 qbar=0 Time=15
+# clk=0 rst=1 tin=1 q=1 qbar=0 Time=20
+# clk=1 rst=1 tin=1 q=0 qbar=1 Time=25
+# clk=0 rst=1 tin=1 q=0 qbar=1 Time=30
+# clk=1 rst=1 tin=1 q=1 qbar=0 Time=35
+# clk=0 rst=1 tin=1 q=1 qbar=0 Time=40
+# clk=1 rst=1 tin=1 q=0 qbar=1 Time=45
+# clk=0 rst=1 tin=1 q=0 qbar=1 Time=50
+# clk=1 rst=1 tin=1 q=1 qbar=0 Time=55
+# clk=0 rst=1 tin=1 q=1 qbar=0 Time=60
+# clk=1 rst=1 tin=1 q=0 qbar=1 Time=65
+# clk=0 rst=1 tin=1 q=0 qbar=1 Time=70
+# clk=1 rst=1 tin=1 q=1 qbar=0 Time=75
+# clk=0 rst=1 tin=1 q=1 qbar=0 Time=80
+# clk=1 rst=1 tin=1 q=0 qbar=1 Time=85
+# clk=0 rst=1 tin=1 q=0 qbar=1 Time=90
+# clk=1 rst=1 tin=1 q=1 qbar=0 Time=95
+# ** Note: $stop    : tl.v(52)
+#    Time: 100 ns  Iteration: 0  Instance: /tl_tb
+# Break in Module tl_tb at tl.v line 52
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:33:14 on Sep 09,2025
+# vlog -reportprogress 300 tl.v "+acc" 
+# -- Compiling module tl
+# -- Compiling module tl_tb
+# 
+# Top level modules:
+# 	tl_tb
+# End time: 16:33:14 on Sep 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:33:17 on Sep 09,2025, Elapsed time: 0:07:26
+# Errors: 0, Warnings: 0
+# vsim tl_tb 
+# Start time: 16:33:17 on Sep 09,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tl_tb(fast)
+# Loading work.tl(fast)
+# clk=0 rst=0 tin=x q=0 qbar=1 Time=0
+# clk=1 rst=0 tin=x q=0 qbar=1 Time=5
+# clk=0 rst=1 tin=0 q=0 qbar=1 Time=10
+# clk=1 rst=1 tin=1 q=1 qbar=0 Time=15
+# clk=0 rst=1 tin=1 q=1 qbar=0 Time=20
+# clk=1 rst=1 tin=1 q=0 qbar=1 Time=25
+# clk=0 rst=1 tin=1 q=0 qbar=1 Time=30
+# clk=1 rst=1 tin=1 q=1 qbar=0 Time=35
+# clk=0 rst=1 tin=1 q=1 qbar=0 Time=40
+# clk=1 rst=1 tin=1 q=0 qbar=1 Time=45
+# clk=0 rst=1 tin=1 q=0 qbar=1 Time=50
+# clk=1 rst=1 tin=1 q=1 qbar=0 Time=55
+# clk=0 rst=1 tin=1 q=1 qbar=0 Time=60
+# clk=1 rst=1 tin=1 q=0 qbar=1 Time=65
+# clk=0 rst=1 tin=1 q=0 qbar=1 Time=70
+# clk=1 rst=1 tin=1 q=1 qbar=0 Time=75
+# clk=0 rst=1 tin=1 q=1 qbar=0 Time=80
+# clk=1 rst=1 tin=1 q=0 qbar=1 Time=85
+# clk=0 rst=1 tin=1 q=0 qbar=1 Time=90
+# clk=1 rst=1 tin=1 q=1 qbar=0 Time=95
+# ** Note: $stop    : tl.v(56)
+#    Time: 100 ns  Iteration: 0  Instance: /tl_tb
+# Break in Module tl_tb at tl.v line 56
+quit -sim
+# End time: 16:34:47 on Sep 09,2025, Elapsed time: 0:01:30
+# Errors: 0, Warnings: 0

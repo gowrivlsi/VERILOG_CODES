@@ -1,0 +1,40 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/VERILOG CODES/BEHAVIOURAL  MODEL/FUNCTION AND TASKS/FUNCTIONS/LOGICAL CODES USING FUNCTION/DISPLAYING 1,2,3
+T_opt
+!s110 1757857211
+V?T9XHP^5mL5n=NObZc4kc0
+04 4 4 work test fast 0
+=1-9ac3c3f168e9-68c6c5bb-255-4068
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vtest
+!s110 1757857210
+!i10b 1
+!s100 bUfom?B]S;f7FLEbk8iVZ3
+IhF[D^:9_dBf<eMZ1J4>eZ3
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1757857194
+8test.v
+Ftest.v
+L0 1
+OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1757857210.000000
+!s107 test.v|
+!s90 test.v|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1

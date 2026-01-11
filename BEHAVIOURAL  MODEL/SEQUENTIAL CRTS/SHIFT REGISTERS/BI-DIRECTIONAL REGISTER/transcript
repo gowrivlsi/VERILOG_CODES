@@ -1,0 +1,193 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:37:21 on Sep 18,2025
+# vlog -reportprogress 300 bidsr.v "+acc" 
+# -- Compiling module bidsr
+# -- Compiling module bidsr_tb
+# 
+# Top level modules:
+# 	bidsr_tb
+# End time: 11:37:21 on Sep 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim bidsr_tb 
+# Start time: 11:37:21 on Sep 18,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.bidsr_tb(fast)
+# Loading work.bidsr(fast)
+# clk=0 rst=0 mode=0 s_in=x s_out=0 Time=0
+# clk=0 rst=0 mode=0 s_in=1 s_out=0 Time=3
+# clk=0 rst=1 mode=0 s_in=1 s_out=0 Time=5
+# clk=1 rst=1 mode=0 s_in=1 s_out=0 Time=10
+# clk=1 rst=1 mode=0 s_in=0 s_out=0 Time=18
+# clk=0 rst=1 mode=0 s_in=0 s_out=0 Time=20
+# clk=1 rst=1 mode=0 s_in=0 s_out=0 Time=30
+# clk=0 rst=1 mode=0 s_in=0 s_out=0 Time=40
+# clk=1 rst=1 mode=0 s_in=0 s_out=0 Time=50
+# clk=1 rst=1 mode=0 s_in=1 s_out=0 Time=58
+# clk=0 rst=1 mode=0 s_in=1 s_out=0 Time=60
+# clk=1 rst=1 mode=0 s_in=1 s_out=0 Time=70
+# clk=0 rst=1 mode=0 s_in=1 s_out=0 Time=80
+# clk=1 rst=1 mode=0 s_in=1 s_out=1 Time=90
+# clk=0 rst=1 mode=0 s_in=1 s_out=1 Time=100
+# clk=1 rst=1 mode=0 s_in=1 s_out=0 Time=110
+# clk=0 rst=1 mode=0 s_in=1 s_out=0 Time=120
+# clk=1 rst=1 mode=0 s_in=1 s_out=0 Time=130
+# clk=0 rst=1 mode=0 s_in=1 s_out=0 Time=140
+# clk=1 rst=1 mode=0 s_in=1 s_out=1 Time=150
+# clk=1 rst=1 mode=1 s_in=1 s_out=1 Time=158
+# clk=0 rst=1 mode=1 s_in=1 s_out=1 Time=160
+# clk=1 rst=1 mode=1 s_in=1 s_out=1 Time=170
+# clk=1 rst=1 mode=1 s_in=0 s_out=1 Time=178
+# clk=0 rst=1 mode=1 s_in=0 s_out=1 Time=180
+# clk=1 rst=1 mode=1 s_in=0 s_out=1 Time=190
+# clk=0 rst=1 mode=1 s_in=0 s_out=1 Time=200
+# clk=1 rst=1 mode=1 s_in=0 s_out=1 Time=210
+# clk=1 rst=1 mode=1 s_in=1 s_out=1 Time=218
+# clk=0 rst=1 mode=1 s_in=1 s_out=1 Time=220
+# clk=1 rst=1 mode=1 s_in=1 s_out=1 Time=230
+# clk=0 rst=1 mode=1 s_in=1 s_out=1 Time=240
+# clk=1 rst=1 mode=1 s_in=1 s_out=1 Time=250
+# clk=0 rst=1 mode=1 s_in=1 s_out=1 Time=260
+# clk=1 rst=1 mode=1 s_in=1 s_out=0 Time=270
+# clk=0 rst=1 mode=1 s_in=1 s_out=0 Time=280
+# clk=1 rst=1 mode=1 s_in=1 s_out=0 Time=290
+# ** Note: $stop    : bidsr.v(109)
+#    Time: 300 ns  Iteration: 0  Instance: /bidsr_tb
+# Break in Module bidsr_tb at bidsr.v line 109
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:39:25 on Sep 18,2025
+# vlog -reportprogress 300 bidsr.v "+acc" 
+# -- Compiling module bidsr
+# -- Compiling module bidsr_tb
+# 
+# Top level modules:
+# 	bidsr_tb
+# End time: 11:39:25 on Sep 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:39:27 on Sep 18,2025, Elapsed time: 0:02:06
+# Errors: 0, Warnings: 0
+# vsim bidsr_tb 
+# Start time: 11:39:28 on Sep 18,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.bidsr_tb(fast)
+# Loading work.bidsr(fast)
+# clk=0 rst=0 mode=0 s_in=x s_out=0 Time=0
+# clk=0 rst=0 mode=0 s_in=1 s_out=0 Time=3
+# clk=0 rst=1 mode=0 s_in=1 s_out=0 Time=5
+# clk=1 rst=1 mode=0 s_in=1 s_out=0 Time=10
+# clk=1 rst=1 mode=0 s_in=0 s_out=0 Time=18
+# clk=0 rst=1 mode=0 s_in=0 s_out=0 Time=20
+# clk=1 rst=1 mode=0 s_in=0 s_out=0 Time=30
+# clk=0 rst=1 mode=0 s_in=0 s_out=0 Time=40
+# clk=1 rst=1 mode=0 s_in=0 s_out=0 Time=50
+# clk=1 rst=1 mode=0 s_in=1 s_out=0 Time=58
+# clk=0 rst=1 mode=0 s_in=1 s_out=0 Time=60
+# clk=1 rst=1 mode=0 s_in=1 s_out=0 Time=70
+# clk=0 rst=1 mode=0 s_in=1 s_out=0 Time=80
+# clk=1 rst=1 mode=0 s_in=1 s_out=1 Time=90
+# clk=0 rst=1 mode=0 s_in=1 s_out=1 Time=100
+# clk=1 rst=1 mode=0 s_in=1 s_out=0 Time=110
+# clk=0 rst=1 mode=0 s_in=1 s_out=0 Time=120
+# clk=1 rst=1 mode=0 s_in=1 s_out=0 Time=130
+# clk=0 rst=1 mode=0 s_in=1 s_out=0 Time=140
+# clk=1 rst=1 mode=0 s_in=1 s_out=1 Time=150
+# clk=1 rst=1 mode=1 s_in=1 s_out=1 Time=158
+# clk=0 rst=1 mode=1 s_in=1 s_out=1 Time=160
+# clk=1 rst=1 mode=1 s_in=1 s_out=1 Time=170
+# clk=1 rst=1 mode=1 s_in=0 s_out=1 Time=178
+# clk=0 rst=1 mode=1 s_in=0 s_out=1 Time=180
+# clk=1 rst=1 mode=1 s_in=0 s_out=1 Time=190
+# clk=0 rst=1 mode=1 s_in=0 s_out=1 Time=200
+# clk=1 rst=1 mode=1 s_in=0 s_out=1 Time=210
+# clk=1 rst=1 mode=1 s_in=1 s_out=1 Time=218
+# clk=0 rst=1 mode=1 s_in=1 s_out=1 Time=220
+# clk=1 rst=1 mode=1 s_in=1 s_out=1 Time=230
+# clk=0 rst=1 mode=1 s_in=1 s_out=1 Time=240
+# clk=1 rst=1 mode=1 s_in=1 s_out=1 Time=250
+# clk=0 rst=1 mode=1 s_in=1 s_out=1 Time=260
+# clk=1 rst=1 mode=1 s_in=1 s_out=0 Time=270
+# clk=0 rst=1 mode=1 s_in=1 s_out=0 Time=280
+# clk=1 rst=1 mode=1 s_in=1 s_out=0 Time=290
+# ** Note: $stop    : bidsr.v(109)
+#    Time: 300 ns  Iteration: 0  Instance: /bidsr_tb
+# Break in Module bidsr_tb at bidsr.v line 109
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:41:17 on Sep 18,2025
+# vlog -reportprogress 300 bidsr.v "+acc" 
+# -- Compiling module bidsr
+# -- Compiling module bidsr_tb
+# 
+# Top level modules:
+# 	bidsr_tb
+# End time: 11:41:17 on Sep 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:41:21 on Sep 18,2025, Elapsed time: 0:01:53
+# Errors: 0, Warnings: 0
+# vsim bidsr_tb 
+# Start time: 11:41:21 on Sep 18,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.bidsr_tb(fast)
+# Loading work.bidsr(fast)
+# clk=0 rst=0 mode=0 s_in=x s_out=0 Time=0
+# clk=0 rst=0 mode=0 s_in=1 s_out=0 Time=3
+# clk=0 rst=1 mode=0 s_in=1 s_out=0 Time=5
+# clk=1 rst=1 mode=0 s_in=1 s_out=0 Time=10
+# clk=1 rst=1 mode=0 s_in=0 s_out=0 Time=18
+# clk=0 rst=1 mode=0 s_in=0 s_out=0 Time=20
+# clk=1 rst=1 mode=0 s_in=0 s_out=0 Time=30
+# clk=0 rst=1 mode=0 s_in=0 s_out=0 Time=40
+# clk=1 rst=1 mode=0 s_in=0 s_out=0 Time=50
+# clk=1 rst=1 mode=0 s_in=1 s_out=0 Time=58
+# clk=0 rst=1 mode=0 s_in=1 s_out=0 Time=60
+# clk=1 rst=1 mode=0 s_in=1 s_out=0 Time=70
+# clk=0 rst=1 mode=0 s_in=1 s_out=0 Time=80
+# clk=1 rst=1 mode=0 s_in=1 s_out=1 Time=90
+# clk=0 rst=1 mode=0 s_in=1 s_out=1 Time=100
+# clk=1 rst=1 mode=0 s_in=1 s_out=0 Time=110
+# clk=0 rst=1 mode=0 s_in=1 s_out=0 Time=120
+# clk=1 rst=1 mode=0 s_in=1 s_out=0 Time=130
+# clk=0 rst=1 mode=0 s_in=1 s_out=0 Time=140
+# clk=1 rst=1 mode=0 s_in=1 s_out=1 Time=150
+# clk=1 rst=1 mode=1 s_in=1 s_out=1 Time=158
+# clk=0 rst=1 mode=1 s_in=1 s_out=1 Time=160
+# clk=1 rst=1 mode=1 s_in=1 s_out=1 Time=170
+# clk=1 rst=1 mode=1 s_in=0 s_out=1 Time=178
+# clk=0 rst=1 mode=1 s_in=0 s_out=1 Time=180
+# clk=1 rst=1 mode=1 s_in=0 s_out=1 Time=190
+# clk=0 rst=1 mode=1 s_in=0 s_out=1 Time=200
+# clk=1 rst=1 mode=1 s_in=0 s_out=1 Time=210
+# clk=1 rst=1 mode=1 s_in=1 s_out=1 Time=218
+# clk=0 rst=1 mode=1 s_in=1 s_out=1 Time=220
+# clk=1 rst=1 mode=1 s_in=1 s_out=1 Time=230
+# clk=0 rst=1 mode=1 s_in=1 s_out=1 Time=240
+# clk=1 rst=1 mode=1 s_in=1 s_out=1 Time=250
+# clk=0 rst=1 mode=1 s_in=1 s_out=1 Time=260
+# clk=1 rst=1 mode=1 s_in=1 s_out=0 Time=270
+# clk=0 rst=1 mode=1 s_in=1 s_out=0 Time=280
+# clk=1 rst=1 mode=1 s_in=1 s_out=0 Time=290
+# clk=0 rst=1 mode=1 s_in=1 s_out=0 Time=300
+# clk=1 rst=1 mode=1 s_in=1 s_out=1 Time=310
+# clk=0 rst=1 mode=1 s_in=1 s_out=1 Time=320
+# clk=1 rst=1 mode=1 s_in=1 s_out=1 Time=330
+# clk=0 rst=1 mode=1 s_in=1 s_out=1 Time=340
+# ** Note: $stop    : bidsr.v(109)
+#    Time: 350 ns  Iteration: 0  Instance: /bidsr_tb
+# Break in Module bidsr_tb at bidsr.v line 109
+# End time: 11:47:07 on Sep 18,2025, Elapsed time: 0:05:46
+# Errors: 0, Warnings: 0

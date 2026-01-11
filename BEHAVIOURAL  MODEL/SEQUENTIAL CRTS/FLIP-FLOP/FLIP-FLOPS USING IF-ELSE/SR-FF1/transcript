@@ -1,0 +1,79 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:17:03 on Sep 11,2025
+# vlog -reportprogress 300 srff1.v "+acc" 
+# -- Compiling module srff1
+# -- Compiling module srff1_tb
+# 
+# Top level modules:
+# 	srff1_tb
+# End time: 19:17:03 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim srff1_tb 
+# Start time: 19:17:03 on Sep 11,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.srff1_tb(fast)
+# Loading work.srff1(fast)
+# ** Error: (vish-4014) No objects found matching 'srff1_tb/G1'.
+# Error in macro ./run.do line 3
+# (vish-4014) No objects found matching 'srff1_tb/G1'.
+#     while executing
+# "add wave srff1_tb/G1"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:17:35 on Sep 11,2025
+# vlog -reportprogress 300 srff1.v "+acc" 
+# -- Compiling module srff1
+# -- Compiling module srff1_tb
+# 
+# Top level modules:
+# 	srff1_tb
+# End time: 19:17:35 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:17:36 on Sep 11,2025, Elapsed time: 0:00:33
+# Errors: 3, Warnings: 0
+# vsim srff1_tb 
+# Start time: 19:17:36 on Sep 11,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.srff1_tb(fast)
+# Loading work.srff1(fast)
+# rst=0 clk=0 s=x r=x q=x qn=x Time=0
+# rst=0 clk=1 s=x r=x q=0 qn=1 Time=5
+# rst=1 clk=0 s=0 r=1 q=0 qn=1 Time=10
+# rst=1 clk=1 s=0 r=1 q=0 qn=1 Time=15
+# rst=1 clk=0 s=1 r=1 q=0 qn=1 Time=20
+# rst=1 clk=1 s=1 r=1 q=x qn=x Time=25
+# rst=1 clk=0 s=1 r=1 q=x qn=x Time=30
+# rst=1 clk=1 s=1 r=1 q=x qn=x Time=35
+# rst=1 clk=0 s=1 r=0 q=x qn=x Time=40
+# rst=1 clk=1 s=1 r=0 q=1 qn=0 Time=45
+# rst=1 clk=0 s=1 r=1 q=1 qn=0 Time=50
+# rst=1 clk=1 s=1 r=1 q=x qn=x Time=55
+# rst=1 clk=0 s=0 r=1 q=x qn=x Time=60
+# rst=1 clk=1 s=0 r=1 q=0 qn=1 Time=65
+# rst=1 clk=0 s=1 r=0 q=0 qn=1 Time=70
+# rst=1 clk=1 s=1 r=0 q=1 qn=0 Time=75
+# rst=1 clk=0 s=1 r=0 q=1 qn=0 Time=80
+# rst=1 clk=1 s=1 r=0 q=1 qn=0 Time=85
+# rst=1 clk=0 s=1 r=0 q=1 qn=0 Time=90
+# rst=1 clk=1 s=1 r=0 q=1 qn=0 Time=95
+# ** Note: $stop    : srff1.v(53)
+#    Time: 100 ns  Iteration: 0  Instance: /srff1_tb
+# Break in Module srff1_tb at srff1.v line 53
+quit -sim
+# End time: 19:17:56 on Sep 11,2025, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 0

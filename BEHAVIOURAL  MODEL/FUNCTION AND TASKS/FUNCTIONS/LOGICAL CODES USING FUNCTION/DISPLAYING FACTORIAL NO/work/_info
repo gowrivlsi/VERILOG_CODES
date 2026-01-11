@@ -1,0 +1,40 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/VERILOG CODES/BEHAVIOURAL  MODEL/FUNCTION AND TASKS/FUNCTIONS/LOGICAL CODES USING FUNCTION/DISPLAYING FACTORIAL NO
+T_opt
+!s110 1757858590
+VA6JhUFE]c45R0kTAmF:K@1
+04 4 4 work fact fast 0
+=1-9ac3c3f168e9-68c6cb1e-7b-3be4
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vfact
+!s110 1757858589
+!i10b 1
+!s100 mL854o?:zZnDjH3dfOaFC0
+Id_<T1J5lOH8@7c>j_QA_]1
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1757858557
+8fact.v
+Ffact.v
+L0 1
+OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1757858589.000000
+!s107 fact.v|
+!s90 fact.v|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1

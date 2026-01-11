@@ -1,0 +1,83 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:02:48 on Oct 08,2025
+# vlog -reportprogress 300 tb.v "+acc" 
+# ** Error: (vlog-13069) tb.v(1): near "/": syntax error, unexpected '/', expecting class.
+# End time: 13:02:48 on Oct 08,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog tb.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:03:16 on Oct 08,2025
+# vlog -reportprogress 300 tb.v "+acc" 
+# -- Compiling module mealy1
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 13:03:16 on Oct 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 13:03:16 on Oct 08,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "mealy1(fast)".
+# Loading work.tb(fast)
+# Loading work.mealy1(fast)
+# clk_i=0 rst_i=0 x_i=0 y_o=0 Time=0
+# clk_i=1 rst_i=0 x_i=0 y_o=0 Time=5
+# clk_i=0 rst_i=0 x_i=0 y_o=0 Time=10
+# clk_i=1 rst_i=0 x_i=0 y_o=0 Time=15
+# clk_i=0 rst_i=1 x_i=0 y_o=0 Time=20
+# clk_i=1 rst_i=1 x_i=0 y_o=0 Time=25
+# clk_i=0 rst_i=1 x_i=0 y_o=0 Time=30
+# clk_i=1 rst_i=1 x_i=0 y_o=0 Time=35
+# clk_i=0 rst_i=1 x_i=0 y_o=0 Time=40
+# clk_i=1 rst_i=1 x_i=0 y_o=0 Time=45
+# clk_i=0 rst_i=1 x_i=1 y_o=0 Time=50
+# clk_i=1 rst_i=1 x_i=1 y_o=0 Time=55
+# clk_i=0 rst_i=1 x_i=1 y_o=0 Time=60
+# clk_i=1 rst_i=1 x_i=1 y_o=0 Time=65
+# clk_i=0 rst_i=1 x_i=1 y_o=0 Time=70
+# clk_i=1 rst_i=1 x_i=1 y_o=0 Time=75
+# clk_i=0 rst_i=1 x_i=1 y_o=0 Time=80
+# clk_i=1 rst_i=1 x_i=1 y_o=0 Time=85
+# clk_i=0 rst_i=1 x_i=1 y_o=0 Time=90
+# clk_i=1 rst_i=1 x_i=1 y_o=0 Time=95
+# clk_i=0 rst_i=1 x_i=1 y_o=0 Time=100
+# clk_i=1 rst_i=1 x_i=1 y_o=0 Time=105
+# clk_i=0 rst_i=1 x_i=0 y_o=0 Time=110
+# clk_i=1 rst_i=1 x_i=0 y_o=0 Time=115
+# clk_i=0 rst_i=1 x_i=1 y_o=1 Time=120
+# clk_i=1 rst_i=1 x_i=1 y_o=0 Time=125
+# clk_i=0 rst_i=1 x_i=1 y_o=0 Time=130
+# clk_i=1 rst_i=1 x_i=1 y_o=0 Time=135
+# clk_i=0 rst_i=1 x_i=0 y_o=0 Time=140
+# clk_i=1 rst_i=1 x_i=0 y_o=0 Time=145
+# clk_i=0 rst_i=1 x_i=1 y_o=1 Time=150
+# clk_i=1 rst_i=1 x_i=1 y_o=0 Time=155
+# clk_i=0 rst_i=1 x_i=1 y_o=0 Time=160
+# clk_i=1 rst_i=1 x_i=1 y_o=0 Time=165
+# clk_i=0 rst_i=1 x_i=0 y_o=0 Time=170
+# clk_i=1 rst_i=1 x_i=0 y_o=0 Time=175
+# clk_i=0 rst_i=1 x_i=1 y_o=1 Time=180
+# clk_i=1 rst_i=1 x_i=1 y_o=0 Time=185
+# clk_i=0 rst_i=1 x_i=0 y_o=0 Time=190
+# clk_i=1 rst_i=1 x_i=0 y_o=0 Time=195

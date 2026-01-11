@@ -1,0 +1,62 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:44:41 on Sep 17,2025
+# vlog -reportprogress 300 pipo.v "+acc" 
+# -- Compiling module pipo
+# -- Compiling module pipo_tb
+# ** Error: (vlog-13069) pipo.v(54): near "initial": syntax error, unexpected initial, expecting ';'.
+# End time: 19:44:41 on Sep 17,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog pipo.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:45:42 on Sep 17,2025
+# vlog -reportprogress 300 pipo.v "+acc" 
+# -- Compiling module pipo
+# -- Compiling module pipo_tb
+# 
+# Top level modules:
+# 	pipo_tb
+# End time: 19:45:42 on Sep 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim pipo_tb 
+# Start time: 19:45:42 on Sep 17,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.pipo_tb(fast)
+# Loading work.pipo(fast)
+# clk=1 rst=0 p_in=1011 p_out=0000 Time=0
+# clk=0 rst=1 p_in=1011 p_out=0000 Time=10
+# clk=1 rst=1 p_in=1011 p_out=0000 Time=20
+# clk=0 rst=1 p_in=1011 p_out=0000 Time=30
+# clk=1 rst=1 p_in=1011 p_out=1011 Time=40
+# clk=0 rst=1 p_in=1011 p_out=1011 Time=50
+# clk=1 rst=1 p_in=1011 p_out=1011 Time=60
+# clk=0 rst=1 p_in=1011 p_out=1011 Time=70
+# clk=1 rst=1 p_in=1011 p_out=1011 Time=80
+# clk=0 rst=1 p_in=1011 p_out=1011 Time=90
+# clk=1 rst=1 p_in=1011 p_out=1011 Time=100
+# clk=0 rst=1 p_in=1011 p_out=1011 Time=110
+# ** Note: $stop    : pipo.v(56)
+#    Time: 120 ns  Iteration: 0  Instance: /pipo_tb
+# Break in Module pipo_tb at pipo.v line 56
+quit -sim
+# End time: 19:46:08 on Sep 17,2025, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 0

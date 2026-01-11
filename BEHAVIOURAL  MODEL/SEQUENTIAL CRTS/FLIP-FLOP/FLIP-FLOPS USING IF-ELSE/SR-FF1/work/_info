@@ -1,0 +1,62 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/VERILOG CODES/BEHAVIOURAL  MODEL/SEQUENTIAL CRTS/FLIP-FLOP/SR-FF1
+T_opt
+!s110 1757598423
+VB`jQN9JGC7:c?<h>h;c1W3
+04 8 4 work srff1_tb fast 0
+=1-9ac3c3f168e9-68c2d2d7-1cf-31a0
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+R0
+vsrff1
+Z2 !s110 1757598455
+!i10b 1
+!s100 W:VY9D<a>PTc1g@gjUCS@1
+I9chnjbMD3izM:<e`B;E6R2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1757598288
+Z5 8srff1.v
+Z6 Fsrff1.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1757598455.000000
+!s107 srff1.v|
+Z9 !s90 -reportprogress|300|srff1.v|+acc|
+!i113 0
+Z10 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vsrff1_tb
+R2
+!i10b 1
+!s100 ?_Z7`?gWA6<Y6ca6iH6n51
+IET=MzNj5c]F6U_Bz=f;l21
+R3
+R0
+R4
+R5
+R6
+L0 26
+R7
+r1
+!s85 0
+31
+R8
+Z11 !s107 srff1.v|
+R9
+!i113 0
+R10
+R1

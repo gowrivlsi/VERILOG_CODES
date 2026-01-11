@@ -1,0 +1,188 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:19:37 on Sep 20,2025
+# vlog -reportprogress 300 prenco.v "+acc" 
+# -- Compiling module prenco
+# ** Error: prenco.v(9): (vlog-2110) Illegal reference to net "y0".
+# ** Error: prenco.v(9): (vlog-2110) Illegal reference to net "y1".
+# ** Error: prenco.v(10): (vlog-2110) Illegal reference to net "y0".
+# ** Error: prenco.v(10): (vlog-2110) Illegal reference to net "y1".
+# ** Error: prenco.v(11): (vlog-2110) Illegal reference to net "y0".
+# ** Error: prenco.v(11): (vlog-2110) Illegal reference to net "y1".
+# ** Error: prenco.v(12): (vlog-2110) Illegal reference to net "y0".
+# ** Error: prenco.v(12): (vlog-2110) Illegal reference to net "y1".
+# ** Error: prenco.v(13): (vlog-2110) Illegal reference to net "y0".
+# ** Error: prenco.v(13): (vlog-2110) Illegal reference to net "y1".
+# -- Compiling module prenco_tb
+# End time: 20:19:37 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 10, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog prenco.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:19:52 on Sep 20,2025
+# vlog -reportprogress 300 prenco.v "+acc" 
+# -- Compiling module prenco
+# -- Compiling module prenco_tb
+# 
+# Top level modules:
+# 	prenco_tb
+# End time: 20:19:52 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim prenco_tb 
+# Start time: 20:19:52 on Sep 20,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.prenco_tb(fast)
+# Loading work.prenco(fast)
+# i0=1 i1=0 i2=0 i3=0 y0=1 y1=1 Time=0
+# i0=0 i1=1 i2=0 i3=0 y0=0 y1=0 Time=10
+# i0=0 i1=0 i2=1 i3=0 y0=0 y1=0 Time=20
+# i0=1 i1=1 i2=1 i3=1 y0=0 y1=0 Time=30
+# i0=1 i1=0 i2=0 i3=0 y0=1 y1=1 Time=50
+# i0=0 i1=1 i2=0 i3=0 y0=0 y1=0 Time=60
+# i0=0 i1=0 i2=1 i3=0 y0=0 y1=0 Time=70
+# i0=1 i1=1 i2=1 i3=1 y0=0 y1=0 Time=80
+# i0=1 i1=0 i2=0 i3=0 y0=1 y1=1 Time=100
+# i0=0 i1=1 i2=0 i3=0 y0=0 y1=0 Time=110
+# i0=0 i1=0 i2=1 i3=0 y0=0 y1=0 Time=120
+# i0=1 i1=1 i2=1 i3=1 y0=0 y1=0 Time=130
+# i0=1 i1=0 i2=0 i3=0 y0=1 y1=1 Time=150
+# i0=0 i1=1 i2=0 i3=0 y0=0 y1=0 Time=160
+# i0=0 i1=0 i2=1 i3=0 y0=0 y1=0 Time=170
+# i0=1 i1=1 i2=1 i3=1 y0=0 y1=0 Time=180
+# i0=1 i1=0 i2=0 i3=0 y0=1 y1=1 Time=200
+# i0=0 i1=1 i2=0 i3=0 y0=0 y1=0 Time=210
+# i0=0 i1=0 i2=1 i3=0 y0=0 y1=0 Time=220
+# i0=1 i1=1 i2=1 i3=1 y0=0 y1=0 Time=230
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:20:30 on Sep 20,2025
+# vlog -reportprogress 300 prenco.v "+acc" 
+# -- Compiling module prenco
+# -- Compiling module prenco_tb
+# 
+# Top level modules:
+# 	prenco_tb
+# End time: 20:20:30 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:20:31 on Sep 20,2025, Elapsed time: 0:00:39
+# Errors: 0, Warnings: 0
+# vsim prenco_tb 
+# Start time: 20:20:31 on Sep 20,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.prenco_tb(fast)
+# Loading work.prenco(fast)
+# i0=1 i1=0 i2=0 i3=0 y0=0 y1=0 Time=0
+# i0=0 i1=1 i2=0 i3=0 y0=0 y1=0 Time=10
+# i0=0 i1=0 i2=1 i3=0 y0=0 y1=0 Time=20
+# i0=1 i1=1 i2=1 i3=1 y0=0 y1=0 Time=30
+# i0=1 i1=0 i2=0 i3=0 y0=0 y1=0 Time=50
+# i0=0 i1=1 i2=0 i3=0 y0=0 y1=0 Time=60
+# i0=0 i1=0 i2=1 i3=0 y0=0 y1=0 Time=70
+# i0=1 i1=1 i2=1 i3=1 y0=0 y1=0 Time=80
+# i0=1 i1=0 i2=0 i3=0 y0=0 y1=0 Time=100
+# i0=0 i1=1 i2=0 i3=0 y0=0 y1=0 Time=110
+# i0=0 i1=0 i2=1 i3=0 y0=0 y1=0 Time=120
+# i0=1 i1=1 i2=1 i3=1 y0=0 y1=0 Time=130
+# i0=1 i1=0 i2=0 i3=0 y0=0 y1=0 Time=150
+# i0=0 i1=1 i2=0 i3=0 y0=0 y1=0 Time=160
+# i0=0 i1=0 i2=1 i3=0 y0=0 y1=0 Time=170
+# i0=1 i1=1 i2=1 i3=1 y0=0 y1=0 Time=180
+# i0=1 i1=0 i2=0 i3=0 y0=0 y1=0 Time=200
+# i0=0 i1=1 i2=0 i3=0 y0=0 y1=0 Time=210
+# i0=0 i1=0 i2=1 i3=0 y0=0 y1=0 Time=220
+# i0=1 i1=1 i2=1 i3=1 y0=0 y1=0 Time=230
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:22:20 on Sep 20,2025
+# vlog -reportprogress 300 prenco.v "+acc" 
+# -- Compiling module prenco
+# -- Compiling module prenco_tb
+# 
+# Top level modules:
+# 	prenco_tb
+# End time: 20:22:20 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:22:20 on Sep 20,2025, Elapsed time: 0:01:49
+# Errors: 0, Warnings: 0
+# vsim prenco_tb 
+# Start time: 20:22:20 on Sep 20,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.prenco_tb(fast)
+# Loading work.prenco(fast)
+# i0=1 i1=0 i2=0 i3=0 y0=1 y1=1 Time=0
+# i0=0 i1=1 i2=0 i3=0 y0=1 y1=1 Time=10
+# i0=0 i1=0 i2=1 i3=0 y0=1 y1=1 Time=20
+# i0=1 i1=1 i2=1 i3=1 y0=1 y1=1 Time=30
+# i0=1 i1=0 i2=0 i3=0 y0=1 y1=1 Time=50
+# i0=0 i1=1 i2=0 i3=0 y0=1 y1=1 Time=60
+# i0=0 i1=0 i2=1 i3=0 y0=1 y1=1 Time=70
+# i0=1 i1=1 i2=1 i3=1 y0=1 y1=1 Time=80
+# i0=1 i1=0 i2=0 i3=0 y0=1 y1=1 Time=100
+# i0=0 i1=1 i2=0 i3=0 y0=1 y1=1 Time=110
+# i0=0 i1=0 i2=1 i3=0 y0=1 y1=1 Time=120
+# i0=1 i1=1 i2=1 i3=1 y0=1 y1=1 Time=130
+# i0=1 i1=0 i2=0 i3=0 y0=1 y1=1 Time=150
+# i0=0 i1=1 i2=0 i3=0 y0=1 y1=1 Time=160
+# i0=0 i1=0 i2=1 i3=0 y0=1 y1=1 Time=170
+# i0=1 i1=1 i2=1 i3=1 y0=1 y1=1 Time=180
+# i0=1 i1=0 i2=0 i3=0 y0=1 y1=1 Time=200
+# i0=0 i1=1 i2=0 i3=0 y0=1 y1=1 Time=210
+# i0=0 i1=0 i2=1 i3=0 y0=1 y1=1 Time=220
+# i0=1 i1=1 i2=1 i3=1 y0=1 y1=1 Time=230
+
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:23:24 on Sep 20,2025
+# vlog -reportprogress 300 prenco.v "+acc" 
+# -- Compiling module prenco
+# -- Compiling module prenco_tb
+# 
+# Top level modules:
+# 	prenco_tb
+# End time: 20:23:24 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:23:25 on Sep 20,2025, Elapsed time: 0:01:05
+# Errors: 0, Warnings: 0
+# vsim prenco_tb 
+# Start time: 20:23:25 on Sep 20,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.prenco_tb(fast)
+# Loading work.prenco(fast)
+# i0=1 i1=0 i2=0 i3=0 y0=0 y1=0 Time=0
+# i0=0 i1=1 i2=0 i3=0 y0=0 y1=1 Time=10
+# i0=0 i1=0 i2=1 i3=0 y0=1 y1=0 Time=20
+# i0=1 i1=1 i2=1 i3=1 y0=1 y1=1 Time=30
+# i0=1 i1=0 i2=0 i3=0 y0=0 y1=0 Time=50
+# i0=0 i1=1 i2=0 i3=0 y0=0 y1=1 Time=60
+# i0=0 i1=0 i2=1 i3=0 y0=1 y1=0 Time=70
+# i0=1 i1=1 i2=1 i3=1 y0=1 y1=1 Time=80
+# i0=1 i1=0 i2=0 i3=0 y0=0 y1=0 Time=100
+# i0=0 i1=1 i2=0 i3=0 y0=0 y1=1 Time=110
+# i0=0 i1=0 i2=1 i3=0 y0=1 y1=0 Time=120
+# i0=1 i1=1 i2=1 i3=1 y0=1 y1=1 Time=130
+# i0=1 i1=0 i2=0 i3=0 y0=0 y1=0 Time=150
+# i0=0 i1=1 i2=0 i3=0 y0=0 y1=1 Time=160
+# i0=0 i1=0 i2=1 i3=0 y0=1 y1=0 Time=170
+# i0=1 i1=1 i2=1 i3=1 y0=1 y1=1 Time=180
+# i0=1 i1=0 i2=0 i3=0 y0=0 y1=0 Time=200
+# i0=0 i1=1 i2=0 i3=0 y0=0 y1=1 Time=210
+# i0=0 i1=0 i2=1 i3=0 y0=1 y1=0 Time=220
+# i0=1 i1=1 i2=1 i3=1 y0=1 y1=1 Time=230

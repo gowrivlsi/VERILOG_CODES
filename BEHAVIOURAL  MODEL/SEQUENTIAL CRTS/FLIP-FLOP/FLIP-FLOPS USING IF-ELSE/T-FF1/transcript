@@ -1,0 +1,61 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+ls
+# tff1.v  transcript              
+vlog tff1.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:54:33 on Sep 12,2025
+# vlog -reportprogress 300 tff1.v "+acc" 
+# -- Compiling module tff1
+# -- Compiling module tff1_tb
+# 
+# Top level modules:
+# 	tff1_tb
+# End time: 11:54:34 on Sep 12,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim tff1_tb
+# vsim tff1_tb 
+# Start time: 11:54:48 on Sep 12,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tff1_tb(fast)
+# Loading work.tff1(fast)
+add wave *
+run -all
+# rst=0 clk=0 tin=x q=x qn=x Time=0
+# rst=0 clk=1 tin=x q=0 qn=1 Time=5
+# rst=1 clk=0 tin=0 q=0 qn=1 Time=10
+# rst=1 clk=1 tin=0 q=0 qn=1 Time=15
+# rst=1 clk=0 tin=1 q=0 qn=1 Time=20
+# rst=1 clk=1 tin=1 q=1 qn=0 Time=25
+# rst=1 clk=0 tin=1 q=1 qn=0 Time=30
+# rst=1 clk=1 tin=1 q=0 qn=1 Time=35
+# rst=1 clk=0 tin=1 q=0 qn=1 Time=40
+# rst=1 clk=1 tin=1 q=1 qn=0 Time=45
+# rst=1 clk=0 tin=1 q=1 qn=0 Time=50
+# rst=1 clk=1 tin=1 q=0 qn=1 Time=55
+# rst=1 clk=0 tin=1 q=0 qn=1 Time=60
+# rst=1 clk=1 tin=1 q=1 qn=0 Time=65
+# rst=1 clk=0 tin=1 q=1 qn=0 Time=70
+# rst=1 clk=1 tin=1 q=0 qn=1 Time=75
+# rst=1 clk=0 tin=0 q=0 qn=1 Time=80
+# rst=1 clk=1 tin=0 q=0 qn=1 Time=85
+# rst=1 clk=0 tin=1 q=0 qn=1 Time=90
+# rst=1 clk=1 tin=1 q=1 qn=0 Time=95
+# ** Note: $stop    : tff1.v(48)
+#    Time: 100 ns  Iteration: 0  Instance: /tff1_tb
+# Break in Module tff1_tb at tff1.v line 48
+quit -sim
+# End time: 12:02:05 on Sep 12,2025, Elapsed time: 0:07:17
+# Errors: 0, Warnings: 0

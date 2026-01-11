@@ -1,0 +1,60 @@
+module jkl(
+            input clk,rst,j,k,
+            output reg q,output qbar
+            );
+    assign qbar=~q;
+
+        always @(clk,rst)
+            begin
+                if(!rst)
+                    q=0;
+                else
+                    begin
+                        if(clk==1)
+                            begin
+                                if(~j && ~k)
+                                    q<=q;
+                                else if(~j && k)
+                                    q<=0;
+                                else if(j && ~k)
+                                    q<=1;
+                                else
+                                    q<=~q;
+                            end
+                    end
+            end
+endmodule
+
+//Testbench code
+
+    module jkl_tb();
+        reg clk,rst,j,k;
+        wire q,qbar;
+
+        jkl J1(clk,rst,j,k,q,qbar);
+
+            always
+                begin
+                    clk=0; #5;
+                    clk=1; #5;
+                end
+
+                initial 
+                    begin
+                        rst=0;#5;
+                        rst=1;
+                    end
+                initial 
+                repeat(7)
+                    begin
+                        j=0; k=0;
+                        j=0; k=1;#5;
+                        j=1; k=0;#5;
+                        j=1; k=1;#5;
+                    end
+                    initial
+                    #100 $stop;
+                 initial
+                 $monitor("clk=%b rst=%b j=%b k=%b q=%b qbar=%b Time=%0t",clk,rst,j,k,q,qbar,$time);
+    endmodule
+

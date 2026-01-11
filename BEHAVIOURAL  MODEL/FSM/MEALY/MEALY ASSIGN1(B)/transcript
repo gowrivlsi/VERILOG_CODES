@@ -1,0 +1,203 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:53:17 on Oct 11,2025
+# vlog -reportprogress 300 tb.v "+acc" 
+# ** Error: tb.v(3): Cannot find `include file "assgin1b.v" in directories:
+#     C:/questasim64_10.7c/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src
+# -- Compiling module tb
+# ** Error: (vlog-13069) tb.v(13): near "forever": syntax error, unexpected forever.
+# ** Error: (vlog-13069) tb.v(47): near "=": syntax error, unexpected '=', expecting ++ or --.
+# End time: 19:53:17 on Oct 11,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog tb.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:55:03 on Oct 11,2025
+# vlog -reportprogress 300 tb.v "+acc" 
+# -- Compiling module assign1b
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 19:55:03 on Oct 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 19:55:03 on Oct 11,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "assign1b(fast)".
+# Loading work.tb(fast)
+# Loading work.assign1b(fast)
+# IDEAL
+# clk_i=0 rst_i=0 transfer_i=0 pready_i=x pselx_o=0 penable_o=0 pwrite_i=x Time=0
+# clk_i=1 rst_i=0 transfer_i=0 pready_i=x pselx_o=0 penable_o=0 pwrite_i=x Time=5
+# clk_i=0 rst_i=0 transfer_i=0 pready_i=x pselx_o=0 penable_o=0 pwrite_i=x Time=10
+# clk_i=1 rst_i=0 transfer_i=0 pready_i=x pselx_o=0 penable_o=0 pwrite_i=x Time=15
+# clk_i=0 rst_i=1 transfer_i=1 pready_i=x pselx_o=1 penable_o=0 pwrite_i=x Time=20
+# SETUP
+# clk_i=1 rst_i=1 transfer_i=1 pready_i=x pselx_o=1 penable_o=1 pwrite_i=x Time=25
+# clk_i=0 rst_i=1 transfer_i=1 pready_i=x pselx_o=1 penable_o=1 pwrite_i=x Time=30
+# ACCESS
+# clk_i=1 rst_i=1 transfer_i=1 pready_i=x pselx_o=1 penable_o=0 pwrite_i=x Time=35
+# clk_i=0 rst_i=1 transfer_i=1 pready_i=x pselx_o=1 penable_o=0 pwrite_i=x Time=40
+# SETUP
+# clk_i=1 rst_i=1 transfer_i=1 pready_i=x pselx_o=1 penable_o=1 pwrite_i=x Time=45
+# clk_i=0 rst_i=1 transfer_i=1 pready_i=x pselx_o=1 penable_o=1 pwrite_i=x Time=50
+# ACCESS
+# clk_i=1 rst_i=1 transfer_i=1 pready_i=x pselx_o=1 penable_o=0 pwrite_i=x Time=55
+# clk_i=0 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=60
+# HI
+# clk_i=1 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=65
+# clk_i=0 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=70
+# HI
+# clk_i=1 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=75
+# clk_i=0 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=80
+# HI
+# clk_i=1 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=85
+# clk_i=0 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=90
+# HI
+# clk_i=1 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=95
+# clk_i=0 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=100
+# HI
+# clk_i=1 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=105
+# clk_i=0 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=110
+# HI
+# clk_i=1 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=115
+# clk_i=0 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=120
+# HI
+# clk_i=1 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=125
+# clk_i=0 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=130
+# HI
+# clk_i=1 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=135
+# clk_i=0 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=140
+# HI
+# clk_i=1 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=145
+# clk_i=0 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=150
+# HI
+# clk_i=1 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=155
+# clk_i=0 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=160
+# HI
+# clk_i=1 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=165
+# clk_i=0 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=170
+# HI
+# clk_i=1 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=175
+# clk_i=0 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=180
+# HI
+# clk_i=1 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=185
+# clk_i=0 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=190
+# HI
+# clk_i=1 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=195
+# clk_i=0 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=200
+# HI
+# clk_i=1 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=205
+# clk_i=0 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=210
+# HI
+# clk_i=1 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=215
+# clk_i=0 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=220
+# HI
+# clk_i=1 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=225
+# clk_i=0 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=230
+# HI
+# clk_i=1 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=235
+# clk_i=0 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=240
+# HI
+# clk_i=1 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=245
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:55:34 on Oct 11,2025
+# vlog -reportprogress 300 tb.v "+acc" 
+# -- Compiling module assign1b
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 19:55:34 on Oct 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:55:34 on Oct 11,2025, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 19:55:35 on Oct 11,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.tb(fast)
+# Loading work.assign1b(fast)
+# IDEAL
+# clk_i=0 rst_i=0 transfer_i=0 pready_i=x pselx_o=0 penable_o=0 pwrite_i=x Time=0
+# clk_i=1 rst_i=0 transfer_i=0 pready_i=x pselx_o=0 penable_o=0 pwrite_i=x Time=5
+# clk_i=0 rst_i=0 transfer_i=0 pready_i=x pselx_o=0 penable_o=0 pwrite_i=x Time=10
+# clk_i=1 rst_i=0 transfer_i=0 pready_i=x pselx_o=0 penable_o=0 pwrite_i=x Time=15
+# clk_i=0 rst_i=1 transfer_i=1 pready_i=x pselx_o=1 penable_o=0 pwrite_i=x Time=20
+# SETUP
+# clk_i=1 rst_i=1 transfer_i=1 pready_i=x pselx_o=1 penable_o=1 pwrite_i=x Time=25
+# clk_i=0 rst_i=1 transfer_i=1 pready_i=x pselx_o=1 penable_o=1 pwrite_i=x Time=30
+# ACCESS
+# clk_i=1 rst_i=1 transfer_i=1 pready_i=x pselx_o=1 penable_o=0 pwrite_i=x Time=35
+# clk_i=0 rst_i=1 transfer_i=1 pready_i=x pselx_o=1 penable_o=0 pwrite_i=x Time=40
+# SETUP
+# clk_i=1 rst_i=1 transfer_i=1 pready_i=x pselx_o=1 penable_o=1 pwrite_i=x Time=45
+# clk_i=0 rst_i=1 transfer_i=1 pready_i=x pselx_o=1 penable_o=1 pwrite_i=x Time=50
+# ACCESS
+# clk_i=1 rst_i=1 transfer_i=1 pready_i=x pselx_o=1 penable_o=0 pwrite_i=x Time=55
+# clk_i=0 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=60
+# HI
+# clk_i=1 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=65
+# clk_i=0 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=70
+# HI
+# clk_i=1 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=75
+# clk_i=0 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=80
+# HI
+# clk_i=1 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=85
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:56:21 on Oct 11,2025
+# vlog -reportprogress 300 tb.v "+acc" 
+# -- Compiling module assign1b
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 19:56:21 on Oct 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:56:21 on Oct 11,2025, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 0
+# vsim tb 
+# Start time: 19:56:21 on Oct 11,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.tb(fast)
+# Loading work.assign1b(fast)
+# IDEAL
+# clk_i=0 rst_i=0 transfer_i=0 pready_i=x pselx_o=0 penable_o=0 pwrite_i=x Time=0
+# clk_i=1 rst_i=0 transfer_i=0 pready_i=x pselx_o=0 penable_o=0 pwrite_i=x Time=5
+# clk_i=0 rst_i=0 transfer_i=0 pready_i=x pselx_o=0 penable_o=0 pwrite_i=x Time=10
+# clk_i=1 rst_i=0 transfer_i=0 pready_i=x pselx_o=0 penable_o=0 pwrite_i=x Time=15
+# clk_i=0 rst_i=1 transfer_i=1 pready_i=x pselx_o=1 penable_o=0 pwrite_i=x Time=20
+# SETUP
+# clk_i=1 rst_i=1 transfer_i=1 pready_i=x pselx_o=1 penable_o=1 pwrite_i=x Time=25
+# clk_i=0 rst_i=1 transfer_i=1 pready_i=x pselx_o=1 penable_o=1 pwrite_i=x Time=30
+# ACCESS
+# clk_i=1 rst_i=1 transfer_i=1 pready_i=x pselx_o=1 penable_o=0 pwrite_i=x Time=35
+# clk_i=0 rst_i=1 transfer_i=1 pready_i=x pselx_o=1 penable_o=0 pwrite_i=x Time=40
+# SETUP
+# clk_i=1 rst_i=1 transfer_i=1 pready_i=x pselx_o=1 penable_o=1 pwrite_i=x Time=45
+# clk_i=0 rst_i=1 transfer_i=1 pready_i=x pselx_o=1 penable_o=1 pwrite_i=x Time=50
+# ACCESS
+# clk_i=1 rst_i=1 transfer_i=1 pready_i=x pselx_o=1 penable_o=0 pwrite_i=x Time=55
+# clk_i=0 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=60
+# HI
+# clk_i=1 rst_i=1 transfer_i=1 pready_i=0 pselx_o=1 penable_o=1 pwrite_i=1 Time=65

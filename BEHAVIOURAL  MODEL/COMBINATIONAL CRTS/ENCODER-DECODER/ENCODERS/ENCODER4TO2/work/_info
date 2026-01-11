@@ -1,0 +1,61 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/VLSI/VERILOG CODES/BEHAVIOURAL  MODEL/COMBINATIONAL CRTS/ENCODER-DECODER/ENCODER4TO2
+T_opt
+Z0 !s110 1757517059
+V[3IcP=V[OICfj>7OSIQY=0
+04 11 4 work enco4to2_tb fast 0
+=2-9ac3c3f168e9-68c19503-190-2f34
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+venco4to2
+R0
+!i10b 1
+!s100 @3alT3Z@7dS[[Fh750AKU1
+IHiQYR7X=d?^g8U;WzOJb12
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/VLSI/VERILOG CODES/BEHAVIOURAL  MODEL/COMBINATIONAL CRTS/ENCODER-DECODER/ENCODERS/ENCODER4TO2
+Z4 w1757516667
+Z5 8enco4to2.v
+Z6 Fenco4to2.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1757517059.000000
+Z9 !s107 enco4to2.v|
+Z10 !s90 -reportprogress|300|enco4to2.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+venco4to2_tb
+R0
+!i10b 1
+!s100 NOMGKVzQNa[ji^=kf@7[21
+I0G@zQV[O^oX<z1cbQXUAO3
+R2
+R3
+R4
+R5
+R6
+L0 28
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1

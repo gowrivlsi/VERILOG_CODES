@@ -1,0 +1,103 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/VERILOG CODES/BEHAVIOURAL  MODEL/FLIP-FLOP/T FF
+T_opt
+!s110 1757506437
+VSjX3KbRR2fN[26S0f7j0I2
+04 6 4 work tff_tb fast 0
+=1-9ac3c3f168e9-68c16b85-2fd-b84
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vtff
+Z2 !s110 1757506433
+!i10b 1
+!s100 TI>dinJ<0VZAIm3aR<EV]3
+I05V4n>^Yz5aJhOcERUfGR3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1757506426
+Z5 8tff.v
+Z6 Ftff.v
+L0 2
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1757506433.000000
+Z9 !s107 tl.v|tff.v|
+Z10 !s90 -reportprogress|300|tff.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtff_tb
+R2
+!i10b 1
+!s100 WTJK7o5FWOQ5ogUbQe;La1
+IdoA_iCM_DHEiOC50950NH1
+R3
+R0
+R4
+R5
+R6
+L0 13
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vtl
+R2
+!i10b 1
+!s100 5cho`<ko@kU3`;Z^PT[mn0
+ITYW9m5f2S5zB9<T`BR^5:3
+R3
+R0
+Z12 w1757505937
+Z13 8tl.v
+Z14 Ftl.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vtl_tb
+R2
+!i10b 1
+!s100 m1OLISGFfTgPzd2Q11mBH0
+Ih8WQHiI5HQHj3`L_WWJSG1
+R3
+R0
+R12
+R13
+R14
+L0 26
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1

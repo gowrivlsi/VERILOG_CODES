@@ -1,0 +1,144 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/VERILOG CODES/BEHAVIOURAL  MODEL/FUNCTION AND TASKS/FUNCTIONS/RCA USING FUNCTION
+T_opt
+!s110 1757772485
+VaQMmb1Q;M3Sfa@0BIOY:l1
+04 2 4 work tb fast 0
+=1-9ac3c3f168e9-68c57ac5-219-1b6c
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+T_opt1
+!s110 1757748610
+V8T6T7X29[Xha1?m?oF;cL0
+04 3 4 work rca fast 0
+=1-f66444b558ee-68c51d82-b0-101c
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1757769899
+VnZ:IA_?8O;8X:JY>`LG8Y0
+04 4 4 work frca fast 0
+=1-9ac3c3f168e9-68c570ab-147-4618
+R1
+R2
+n@_opt2
+R3
+R0
+vfrca
+Z4 !s110 1757772483
+!i10b 1
+!s100 hj_IBMZ6KT;gm]L^GlXP12
+IPf[]]D[W68gWk>MR@KlgE1
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1757772419
+8frca.v
+Ffrca.v
+L0 2
+Z6 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z7 !s108 1757772483.000000
+Z8 !s107 frca.v|nrca.v|tb.v|
+Z9 !s90 tb.v|
+!i113 0
+Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vfun
+!s110 1757745688
+!i10b 1
+!s100 ;dzWCE2MT2h9EMoz@E5fX2
+InPz2P5jnbdSEfWGm<<DSY0
+R5
+R0
+w1757745668
+Z11 8rca.v
+Z12 Frca.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1757745687.000000
+Z13 !s107 rca.v|
+Z14 !s90 rca.v|
+!i113 0
+R10
+R2
+vnrca
+R4
+!i10b 1
+!s100 bkD?ZWo2RhUBYHM1CoTHV3
+IQjW3=ibY[L`9kY16OaMc02
+R5
+R0
+w1757772398
+8nrca.v
+Fnrca.v
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vrca
+!s110 1757748609
+!i10b 1
+!s100 ZeBWPmLz0hMKOjflmG`5S1
+IS@[K@hnm[JQUOHVB0iWLD1
+R5
+R0
+w1757748603
+R11
+R12
+L0 2
+R6
+r1
+!s85 0
+31
+!s108 1757748609.000000
+R13
+R14
+!i113 0
+R10
+R2
+vtb
+R4
+!i10b 1
+!s100 QK9g7]ZLi51[5]dD=Ke@z3
+IS;8GTi5Z^B81FzKR0dhU=0
+R5
+R0
+w1757772235
+8tb.v
+Ftb.v
+L0 4
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2

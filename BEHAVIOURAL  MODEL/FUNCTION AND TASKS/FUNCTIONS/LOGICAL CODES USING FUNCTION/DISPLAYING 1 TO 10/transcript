@@ -1,0 +1,45 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+ls
+# test.v  transcript              
+vlog test.v
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:02:02 on Sep 14,2025
+# vlog -reportprogress 300 test.v 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 19:02:02 on Sep 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim test
+# vsim test 
+# Start time: 19:02:13 on Sep 14,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.test(fast)
+run -all
+# a=0
+# a=1
+# a=2
+# a=3
+# a=4
+# a=5
+# a=6
+# a=7
+# a=8
+# a=9
+# a=10
+# End time: 19:02:30 on Sep 14,2025, Elapsed time: 0:00:17
+# Errors: 0, Warnings: 0

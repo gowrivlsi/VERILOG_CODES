@@ -1,0 +1,61 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/VERILOG CODES/BEHAVIOURAL  MODEL/RAM/RAM 32B
+T_opt
+Z1 !s110 1758464092
+V>?[<HSEj8g_W[YlIGJ5;n3
+04 8 4 work ram32_tb fast 0
+=1-9ac3c3f168e9-68d0085c-2d6-4f90
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vram32
+R1
+!i10b 1
+!s100 7GnCo1neMmD@dg`zY1aU=3
+I8<;jRll8:;NGFPNPJF<`l0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1758462832
+8ram32.v
+Fram32.v
+L0 1
+Z4 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z5 !s108 1758464092.000000
+Z6 !s107 ram32.v|ram32_tb.v|
+Z7 !s90 -reportprogress|300|ram32_tb.v|+acc|
+!i113 0
+Z8 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vram32_tb
+R1
+!i10b 1
+!s100 jd91?PdKkzccg<>Lld=mc1
+IBT?X;e`l=H_9X<i:kPLJa1
+R3
+R0
+w1758464071
+8ram32_tb.v
+Fram32_tb.v
+L0 4
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R2

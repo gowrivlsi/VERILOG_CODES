@@ -1,0 +1,62 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/VERILOG CODES/BEHAVIOURAL  MODEL/SEQUENTIAL CRTS/COUNTERS/18-27 UP-COUNTER
+T_opt
+!s110 1758096662
+VL2G>cOMcWe_DY^mbXldT>0
+04 9 4 work u1827c_tb fast 0
+=1-f66444b558ee-68ca6d16-206-4df0
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+R0
+vu1827c
+Z2 !s110 1758096855
+!i10b 1
+!s100 8n[m^b_C;FjnXMKXfH_n42
+IZUBjMh^4iH0R_kQV^iNg=3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1758096651
+Z5 8u1827c.v
+Z6 Fu1827c.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1758096855.000000
+!s107 u1827c.v|
+Z9 !s90 -reportprogress|300|u1827c.v|+acc|
+!i113 0
+Z10 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vu1827c_tb
+R2
+!i10b 1
+!s100 J6iJShYK2l_4Uz8dZS<Ti2
+I]BHWIl:ZS=Hz:8eagzg981
+R3
+R0
+R4
+R5
+R6
+L0 21
+R7
+r1
+!s85 0
+31
+R8
+Z11 !s107 u1827c.v|
+R9
+!i113 0
+R10
+R1

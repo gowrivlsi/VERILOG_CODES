@@ -1,0 +1,61 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/VERILOG CODES/BEHAVIOURAL  MODEL/FRAMES/ETHERNET FRAMES/ETHERNET WITH FUN
+T_opt
+!s110 1758373975
+Vmf8=ITVbn8iNGl9;HJecP3
+04 9 4 work etherf_tb fast 0
+=2-3296bcbac5a8-68cea856-3bd-ef4
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vetherf
+Z2 !s110 1758373974
+!i10b 1
+!s100 BJJn;HDeQ7@f>NoldTiB;2
+IlLU44FDzJC[3m^7WN3e3`1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1758373969
+Z5 8etherf.v
+Z6 Fetherf.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1758373974.000000
+Z9 !s107 etherf.v|
+Z10 !s90 -reportprogress|300|etherf.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vetherf_tb
+R2
+!i10b 1
+!s100 [j=Xa<IY_zbkX7YTB1hRY3
+II;15MPU824lHSFz9UB=IA2
+R3
+R0
+R4
+R5
+R6
+L0 36
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1

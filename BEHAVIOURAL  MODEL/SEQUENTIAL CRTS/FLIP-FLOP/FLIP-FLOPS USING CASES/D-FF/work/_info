@@ -1,0 +1,61 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/VERILOG CODES/BEHAVIOURAL  MODEL/SEQUENTIAL CRTS/FLIP-FLOP/FLIP-FLOPS USING CASES/D-FF
+T_opt
+!s110 1757670694
+V56AV8oXz>`EcThBz99VeA0
+04 6 4 work dff_tb fast 0
+=1-f66444b558ee-68c3ed26-5-954
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vdff
+Z2 !s110 1757670691
+!i10b 1
+!s100 3b3U0BeJJUIJBLN75f`DC0
+I:?WXJHLQE4J@6?C`Oe3hj0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1757670686
+Z5 8dff.v
+Z6 Fdff.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1757670691.000000
+Z9 !s107 dff.v|
+Z10 !s90 -reportprogress|300|dff.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vdff_tb
+R2
+!i10b 1
+!s100 :J2hF4?kW?gd7N9188><d0
+IWelGKSO8QG<Y2A[^`;dYg3
+R3
+R0
+R4
+R5
+R6
+L0 23
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1

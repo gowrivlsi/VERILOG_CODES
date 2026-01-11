@@ -1,0 +1,117 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+ls
+# mux4to1.v  run.do  transcript  vsim.wlf  work        
+vlog mux4to1.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:23:05 on Dec 29,2025
+# vlog -reportprogress 300 mux4to1.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_tb
+# 
+# Top level modules:
+# 	mux4to1_tb
+# End time: 23:23:05 on Dec 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim mux4to1_tb
+# vsim mux4to1_tb 
+# Start time: 23:23:26 on Dec 29,2025
+# ** Error: (vsim-7) Failed to open info file "D:/VLSI/VERILOG CODES/BEHAVIOURAL  MODEL/COMBINATIONAL CRTS/MUXES-DMUXES/MUX 4TO1/work/_info" in read mode.
+# No such file or directory. (errno = ENOENT)
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error: (vopt-7) Failed to open info file "D:/VLSI/VERILOG CODES/BEHAVIOURAL  MODEL/COMBINATIONAL CRTS/MUXES-DMUXES/MUX 4TO1/work/_info" in read mode.
+# No such file or directory. (errno = ENOENT)
+# Optimization failed
+# ** Error: (vopt-1933) Unable to create temporary directory D:/VLSI/VERILOG CODES/BEHAVIOURAL  MODEL/COMBINATIONAL CRTS/MUXES-DMUXES/MUX 4TO1/work/_tempmsg
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# End time: 23:23:27 on Dec 29,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vlog mux4to1.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:23:38 on Dec 29,2025
+# vlog -reportprogress 300 mux4to1.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_tb
+# 
+# Top level modules:
+# 	mux4to1_tb
+# End time: 23:23:38 on Dec 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim mux4to1_tb
+# vsim mux4to1_tb 
+# Start time: 23:23:52 on Dec 29,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.mux4to1_tb(fast)
+# Loading work.mux4to1(fast)
+add wave *
+run -all
+# i0=0 i1=1 i2=0 i3=0 s0=1 s1=1 y=0 Time=0
+# i0=0 i1=0 i2=1 i3=1 s0=1 s1=1 y=1 Time=5
+# i0=0 i1=1 i2=0 i3=1 s0=0 s1=1 y=1 Time=10
+# i0=1 i1=1 i2=0 i3=1 s0=0 s1=1 y=1 Time=15
+# i0=0 i1=1 i2=1 i3=0 s0=1 s1=0 y=1 Time=25
+# i0=0 i1=1 i2=0 i3=1 s0=1 s1=0 y=0 Time=30
+# i0=1 i1=1 i2=1 i3=1 s0=0 s1=0 y=1 Time=35
+# i0=1 i1=0 i2=0 i3=0 s0=1 s1=0 y=0 Time=40
+# i0=1 i1=1 i2=0 i3=1 s0=1 s1=1 y=1 Time=45
+# ** Note: $stop    : mux4to1.v(35)
+#    Time: 100 ns  Iteration: 0  Instance: /mux4to1_tb
+# Break in Module mux4to1_tb at mux4to1.v line 35
+vsim -debugdb mux4to1_tb
+# End time: 23:24:46 on Dec 29,2025, Elapsed time: 0:00:54
+# Errors: 0, Warnings: 0
+# vsim -debugdb mux4to1_tb 
+# Start time: 23:24:46 on Dec 29,2025
+# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# Loading work.mux4to1_tb(fast)
+# Loading work.mux4to1(fast)
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+vlog mux4to1.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:34:16 on Dec 29,2025
+# vlog -reportprogress 300 mux4to1.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_tb
+# 
+# Top level modules:
+# 	mux4to1_tb
+# End time: 23:34:16 on Dec 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim mux4to1_tb
+# End time: 23:34:24 on Dec 29,2025, Elapsed time: 0:09:38
+# Errors: 0, Warnings: 2
+# vsim mux4to1_tb 
+# Start time: 23:34:24 on Dec 29,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.mux4to1_tb(fast)
+# Loading work.mux4to1(fast)
+add wave *
+run -all
+# i0=0 i1=1 i2=0 i3=0 s0=1 s1=1 y=0 Time=0
+# i0=0 i1=0 i2=1 i3=1 s0=1 s1=1 y=1 Time=5
+# i0=0 i1=1 i2=0 i3=1 s0=0 s1=1 y=1 Time=10
+# i0=1 i1=1 i2=0 i3=1 s0=0 s1=1 y=1 Time=15
+# i0=0 i1=1 i2=1 i3=0 s0=1 s1=0 y=1 Time=25
+# i0=0 i1=1 i2=0 i3=1 s0=1 s1=0 y=0 Time=30
+# i0=1 i1=1 i2=1 i3=1 s0=0 s1=0 y=1 Time=35
+# i0=1 i1=0 i2=0 i3=0 s0=1 s1=0 y=0 Time=40
+# i0=1 i1=1 i2=0 i3=1 s0=1 s1=1 y=1 Time=45
+# ** Note: $stop    : mux4to1.v(35)
+#    Time: 100 ns  Iteration: 0  Instance: /mux4to1_tb
+# Break in Module mux4to1_tb at mux4to1.v line 35

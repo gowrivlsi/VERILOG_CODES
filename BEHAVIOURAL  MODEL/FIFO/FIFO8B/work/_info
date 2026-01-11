@@ -1,0 +1,81 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/VERILOG CODES/BEHAVIOURAL  MODEL/FIFO/FIFO8B
+T_opt
+!s110 1758550600
+VXbifGCiP`l582ZfN9KCdo3
+Z1 04 7 4 work fifo_tb fast 0
+=1-9ac3c3f168e9-68d15a48-d1-3a1c
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1758539505
+VJLU=eZJ[TWT9Ad?NUQJ_<1
+04 4 4 work fifo fast 0
+=1-f66444b558ee-68d12ef1-2af-3598
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1758611559
+VU6dfC59?iJbmb9I>=j^=C2
+R1
+=1-f66444b558ee-68d24867-389-5074
+R2
+R3
+n@_opt2
+R4
+vfifo
+Z5 !s110 1758611558
+!i10b 1
+!s100 9AaZL_VUheZ@]o[GW7=`E2
+IAmNLz[`Zm>9m3L5>Zig[00
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1758611532
+8fifo.v
+Ffifo.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1758611558.000000
+Z9 !s107 fifo.v|fifo_tb.v|
+Z10 !s90 -reportprogress|300|fifo_tb.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vfifo_tb
+R5
+!i10b 1
+!s100 k[D30?EiVK]jFd^eG1Kbf1
+I_[JYZFF0nM6VG0f6lj@@>2
+R6
+R0
+w1758611077
+8fifo_tb.v
+Ffifo_tb.v
+L0 5
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
