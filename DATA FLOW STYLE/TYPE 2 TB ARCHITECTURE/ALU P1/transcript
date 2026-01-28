@@ -1,0 +1,185 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:16:43 on Sep 02,2025
+# vlog -reportprogress 300 aluopcode_top.v "+acc" 
+# -- Compiling module aluopcode
+# -- Compiling module aluopcode_tb
+# -- Compiling module aluopcode_top
+# 
+# Top level modules:
+# 	aluopcode_top
+# End time: 13:16:43 on Sep 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim aluopcode_top 
+# Start time: 13:16:43 on Sep 02,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.aluopcode_top(fast)
+# Loading work.aluopcode(fast)
+# Loading work.aluopcode_tb(fast)
+# a=0100 b=0001 op=00000000 y=00000101 Time=0
+# a=0100 b=0001 op=00000001 y=00000011 Time=5
+# a=0100 b=0001 op=00000010 y=00000100 Time=10
+# a=0100 b=0001 op=00000011 y=00000100 Time=15
+# a=0100 b=0001 op=00000100 y=00000001 Time=20
+# a=0100 b=0001 op=00000101 y=00000000 Time=25
+# a=0100 b=0001 op=00000110 y=00000000 Time=30
+# a=0100 b=0001 op=00000111 y=01000001 Time=35
+vsim -debugdb aluopcode_top
+# End time: 13:23:20 on Sep 02,2025, Elapsed time: 0:06:37
+# Errors: 0, Warnings: 0
+# vsim -debugdb aluopcode_top 
+# Start time: 13:23:20 on Sep 02,2025
+# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# Loading work.aluopcode_top(fast)
+# Loading work.aluopcode(fast)
+# Loading work.aluopcode_tb(fast)
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+quit -sim
+# End time: 13:25:53 on Sep 02,2025, Elapsed time: 0:02:33
+# Errors: 0, Warnings: 2
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:23:54 on Sep 02,2025
+# vlog -reportprogress 300 aluopcode_top.v "+acc" 
+# -- Compiling module aluopcode
+# -- Compiling module aluopcode_tb
+# -- Compiling module aluopcode_top
+# 
+# Top level modules:
+# 	aluopcode_top
+# End time: 15:23:54 on Sep 02,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim aluopcode_top "+G=8" 
+# Start time: 15:23:54 on Sep 02,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.aluopcode_top(fast)
+# Loading work.aluopcode(fast)
+# Loading work.aluopcode_tb(fast)
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ns  Iteration: 0  Instance: /aluopcode_top/A2 File: aluopcode.v Line: 19
+# a=0100 b=0001 op=00000000 y=00000101 Time=0
+# a=0100 b=0001 op=00000001 y=00000011 Time=5
+# a=0100 b=0001 op=00000010 y=00000100 Time=10
+# a=0100 b=0001 op=00000011 y=00000100 Time=15
+# a=0100 b=0001 op=00000100 y=00000001 Time=20
+# a=0100 b=0001 op=00000101 y=00000000 Time=25
+# a=0100 b=0001 op=00000110 y=00000000 Time=30
+# a=0100 b=0001 op=00000111 y=01000001 Time=35
+# a=1001 b=0011 op=00000000 y=00001100 Time=40
+# a=1001 b=0011 op=00000001 y=00000110 Time=45
+# a=1001 b=0011 op=00000010 y=00011011 Time=50
+# a=1001 b=0011 op=00000011 y=00000011 Time=55
+# a=1001 b=0011 op=00000100 y=00000001 Time=60
+# a=1001 b=0011 op=00000101 y=00000001 Time=65
+# a=1001 b=0011 op=00000110 y=00000000 Time=70
+# a=1001 b=0011 op=00000111 y=10010011 Time=75
+# a=1101 b=1101 op=00000000 y=00011010 Time=80
+# a=1101 b=1101 op=00000001 y=00000000 Time=85
+# a=1101 b=1101 op=00000010 y=10101001 Time=90
+# a=1101 b=1101 op=00000011 y=00000001 Time=95
+# a=1101 b=1101 op=00000100 y=00000001 Time=100
+# a=1101 b=1101 op=00000101 y=00001101 Time=105
+# a=1101 b=1101 op=00000110 y=00000000 Time=110
+# a=1101 b=1101 op=00000111 y=11011101 Time=115
+# a=0101 b=0010 op=00000000 y=00000111 Time=120
+# a=0101 b=0010 op=00000001 y=00000011 Time=125
+# a=0101 b=0010 op=00000010 y=00001010 Time=130
+# a=0101 b=0010 op=00000011 y=00000010 Time=135
+# a=0101 b=0010 op=00000100 y=00000001 Time=140
+# a=0101 b=0010 op=00000101 y=00000000 Time=145
+# a=0101 b=0010 op=00000110 y=00000000 Time=150
+# a=0101 b=0010 op=00000111 y=01010010 Time=155
+# a=0001 b=1101 op=00000000 y=00001110 Time=160
+# a=0001 b=1101 op=00000001 y=11110100 Time=165
+# a=0001 b=1101 op=00000010 y=00001101 Time=170
+# a=0001 b=1101 op=00000011 y=00000000 Time=175
+# a=0001 b=1101 op=00000100 y=00000001 Time=180
+# a=0001 b=1101 op=00000101 y=00000001 Time=185
+# a=0001 b=1101 op=00000110 y=00000000 Time=190
+# a=0001 b=1101 op=00000111 y=00011101 Time=195
+# a=0110 b=1101 op=00000000 y=00010011 Time=200
+# a=0110 b=1101 op=00000001 y=11111001 Time=205
+# a=0110 b=1101 op=00000010 y=01001110 Time=210
+# a=0110 b=1101 op=00000011 y=00000000 Time=215
+# a=0110 b=1101 op=00000100 y=00000001 Time=220
+# a=0110 b=1101 op=00000101 y=00000100 Time=225
+# a=0110 b=1101 op=00000110 y=00000000 Time=230
+# a=0110 b=1101 op=00000111 y=01101101 Time=235
+# a=1101 b=1100 op=00000000 y=00011001 Time=240
+# a=1101 b=1100 op=00000001 y=00000001 Time=245
+# a=1101 b=1100 op=00000010 y=10011100 Time=250
+# a=1101 b=1100 op=00000011 y=00000001 Time=255
+# a=1101 b=1100 op=00000100 y=00000001 Time=260
+# a=1101 b=1100 op=00000101 y=00001100 Time=265
+# a=1101 b=1100 op=00000110 y=00000000 Time=270
+# a=1101 b=1100 op=00000111 y=11011100 Time=275
+# a=1001 b=0110 op=00000000 y=00001111 Time=280
+# a=1001 b=0110 op=00000001 y=00000011 Time=285
+# a=1001 b=0110 op=00000010 y=00110110 Time=290
+# a=1001 b=0110 op=00000011 y=00000001 Time=295
+# a=1001 b=0110 op=00000100 y=00000001 Time=300
+# a=1001 b=0110 op=00000101 y=00000000 Time=305
+# a=1001 b=0110 op=00000110 y=00000000 Time=310
+# a=1001 b=0110 op=00000111 y=10010110 Time=315
+vsim aluopcode_top +G=2
+# End time: 15:25:17 on Sep 02,2025, Elapsed time: 0:01:23
+# Errors: 0, Warnings: 1
+# vsim aluopcode_top "+G=2" 
+# Start time: 15:25:17 on Sep 02,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.aluopcode_top(fast)
+# Loading work.aluopcode(fast)
+# Loading work.aluopcode_tb(fast)
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ns  Iteration: 0  Instance: /aluopcode_top/A2 File: aluopcode.v Line: 19
+run -all
+# a=0100 b=0001 op=00000000 y=00000101 Time=0
+# a=0100 b=0001 op=00000001 y=00000011 Time=5
+# a=0100 b=0001 op=00000010 y=00000100 Time=10
+# a=0100 b=0001 op=00000011 y=00000100 Time=15
+# a=0100 b=0001 op=00000100 y=00000001 Time=20
+# a=0100 b=0001 op=00000101 y=00000000 Time=25
+# a=0100 b=0001 op=00000110 y=00000000 Time=30
+# a=0100 b=0001 op=00000111 y=01000001 Time=35
+# a=1001 b=0011 op=00000000 y=00001100 Time=40
+# a=1001 b=0011 op=00000001 y=00000110 Time=45
+# a=1001 b=0011 op=00000010 y=00011011 Time=50
+# a=1001 b=0011 op=00000011 y=00000011 Time=55
+# a=1001 b=0011 op=00000100 y=00000001 Time=60
+# a=1001 b=0011 op=00000101 y=00000001 Time=65
+# a=1001 b=0011 op=00000110 y=00000000 Time=70
+# a=1001 b=0011 op=00000111 y=10010011 Time=75
+quit -sim
+# End time: 15:26:56 on Sep 02,2025, Elapsed time: 0:01:39
+# Errors: 0, Warnings: 1

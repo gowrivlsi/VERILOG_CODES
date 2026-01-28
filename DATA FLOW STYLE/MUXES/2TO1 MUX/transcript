@@ -1,0 +1,106 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+ls
+# mux2to1.v  transcript              
+vlog mux2to1.v
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:33:16 on Aug 30,2025
+# vlog -reportprogress 300 mux2to1.v 
+# -- Compiling module mux2to1
+# -- Compiling module mux2to1_tb
+# ** Error: (vlog-13069) mux2to1.v(12): near "wire": syntax error, unexpected wire, expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# End time: 13:33:16 on Aug 30,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog mux2to1.v
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:33:42 on Aug 30,2025
+# vlog -reportprogress 300 mux2to1.v 
+# -- Compiling module mux2to1
+# -- Compiling module mux2to1_tb
+# 
+# Top level modules:
+# 	mux2to1_tb
+# End time: 13:33:42 on Aug 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog mux2to1.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:33:47 on Aug 30,2025
+# vlog -reportprogress 300 mux2to1.v "+acc" 
+# -- Compiling module mux2to1
+# -- Compiling module mux2to1_tb
+# 
+# Top level modules:
+# 	mux2to1_tb
+# End time: 13:33:47 on Aug 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim mux2to1_tb
+# vsim mux2to1_tb 
+# Start time: 13:33:56 on Aug 30,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.mux2to1_tb(fast)
+# Loading work.mux2to1(fast)
+add wave *
+run -all
+# i0 i1 s=x y Time=00x                   0
+vlog mux2to1.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:36:46 on Aug 30,2025
+# vlog -reportprogress 300 mux2to1.v "+acc" 
+# -- Compiling module mux2to1
+# -- Compiling module mux2to1_tb
+# 
+# Top level modules:
+# 	mux2to1_tb
+# End time: 13:36:46 on Aug 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim mux2to1_tb
+# End time: 13:36:51 on Aug 30,2025, Elapsed time: 0:02:55
+# Errors: 0, Warnings: 0
+# vsim mux2to1_tb 
+# Start time: 13:36:52 on Aug 30,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.mux2to1_tb(fast)
+# Loading work.mux2to1(fast)
+add wave *
+run -all
+# i0=0 i1=0 s=0 y Time=0                   0
+# i0=0 i1=1 s=1 y Time=1                   5
+vlog mux2to1.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:37:36 on Aug 30,2025
+# vlog -reportprogress 300 mux2to1.v "+acc" 
+# -- Compiling module mux2to1
+# -- Compiling module mux2to1_tb
+# 
+# Top level modules:
+# 	mux2to1_tb
+# End time: 13:37:36 on Aug 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim mux2to1_tb
+# End time: 13:37:40 on Aug 30,2025, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 0
+# vsim mux2to1_tb 
+# Start time: 13:37:40 on Aug 30,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.mux2to1_tb(fast)
+# Loading work.mux2to1(fast)
+add wave *
+run -all
+# i0=0 i1=0 s=0 y=0 Time=0
+# i0=0 i1=1 s=1 y=1 Time=5
+quit -sim
+# End time: 13:39:42 on Aug 30,2025, Elapsed time: 0:02:02
+# Errors: 0, Warnings: 0

@@ -1,0 +1,56 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:17:12 on Sep 01,2025
+# vlog -reportprogress 300 mux_top.v "+acc" 
+# -- Compiling module mux
+# -- Compiling module mux_tb
+# -- Compiling module mux_top
+# 
+# Top level modules:
+# 	mux_top
+# End time: 13:17:12 on Sep 01,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim mux_top 
+# Start time: 13:17:12 on Sep 01,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.mux_top(fast)
+# Loading work.mux(fast)
+# Loading work.mux_tb(fast)
+# i=00100100 s=000 y=0 Time=0
+# i=00100100 s=001 y=0 Time=5
+# i=00100100 s=010 y=1 Time=10
+# i=00100100 s=011 y=0 Time=15
+# i=00100100 s=100 y=0 Time=20
+# i=00100100 s=101 y=1 Time=25
+# i=00100100 s=110 y=0 Time=30
+# i=00100100 s=111 y=0 Time=35
+vsim -debugdb mux_top
+# End time: 13:20:28 on Sep 01,2025, Elapsed time: 0:03:16
+# Errors: 0, Warnings: 0
+# vsim -debugdb mux_top 
+# Start time: 13:20:28 on Sep 01,2025
+# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# Loading work.mux_top(fast)
+# Loading work.mux(fast)
+# Loading work.mux_tb(fast)
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+quit -sim
+# End time: 13:24:02 on Sep 01,2025, Elapsed time: 0:03:34
+# Errors: 0, Warnings: 2

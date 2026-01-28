@@ -1,0 +1,92 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/VERILOG CODES/DATA FLOW STYLE/TYPE 2 TB ARCHITECTURE/MUXES
+T_opt
+Z1 !s110 1756712832
+VV:JYB]ZNDcOCUk6YE@R:X2
+Z2 04 7 4 work mux_top fast 0
+=1-f66444b558ee-68b54f80-2fd-23a4
+o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1756713028
+VD68KdW75gPjNmXn]aOXYJ2
+R2
+=1-f66444b558ee-68b55044-167-56c0
+o-quiet -auto_acc_if_foreign -work work -debugdb
+R3
+n@_opt1
+R4
+vmux
+R1
+!i10b 1
+!s100 V2SJijY2?3Mz<5T]e=Pbl3
+I;_@7Tc4I2Iz5ERXC_9lEo2
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z6 w1756711426
+8mux.v
+Fmux.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1756712832.000000
+Z9 !s107 mux_tb.v|mux.v|mux_top.v|
+Z10 !s90 -reportprogress|300|mux_top.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vmux_tb
+R1
+!i10b 1
+!s100 dh1RIC6@OE@iT4h[1dhEX2
+Ic`jM`VO;XX9O42Ig?9T[_3
+R5
+R0
+R6
+8mux_tb.v
+Fmux_tb.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3
+vmux_top
+R1
+!i10b 1
+!s100 59KJl3lPR1T01ZKUV>`RJ3
+InnTTb]H=b7NWg_Wd]@d@c0
+R5
+R0
+w1756712299
+8mux_top.v
+Fmux_top.v
+L0 3
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R3

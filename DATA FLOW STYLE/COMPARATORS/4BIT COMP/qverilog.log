@@ -1,0 +1,45 @@
+Start time: 22:20:41 on Aug 30,2025
+qverilog comp4bit.v 
+-- Compiling module comp4bit
+-- Compiling module comp4bit_tb
+
+Top level modules:
+	comp4bit_tb
+# vsim -lib work work.comp4bit_tb -c -do "run -all; quit -f" -appendlog -l qverilog.log -vopt 
+# ** Note: (vsim-3812) Design is being optimized...
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.comp4bit_tb(fast)
+# run -all
+# a=0100 b=0001 G=1 E=0 L=0 Time=0
+# a=1001 b=0011 G=1 E=0 L=0 Time=5
+# a=1101 b=1101 G=0 E=1 L=0 Time=10
+# a=0101 b=0010 G=1 E=0 L=0 Time=15
+# a=0001 b=1101 G=0 E=0 L=1 Time=20
+# a=0110 b=1101 G=0 E=0 L=1 Time=25
+# a=1101 b=1100 G=1 E=0 L=0 Time=30
+# a=1001 b=0110 G=1 E=0 L=0 Time=35
+# a=0101 b=1010 G=0 E=0 L=1 Time=40
+# a=0101 b=0111 G=0 E=0 L=1 Time=45
+# a=0010 b=1111 G=0 E=0 L=1 Time=50
+# a=0010 b=1110 G=0 E=0 L=1 Time=55
+# a=1000 b=0101 G=1 E=0 L=0 Time=60
+# a=1100 b=1101 G=0 E=0 L=1 Time=65
+# a=1101 b=0101 G=1 E=0 L=0 Time=70
+# a=0011 b=1010 G=0 E=0 L=1 Time=75
+# a=0000 b=0000 G=0 E=1 L=0 Time=80
+#  quit -f
+# End time: 22:20:43 on Aug 30,2025, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0

@@ -1,0 +1,81 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VERILOG CODES/DATA FLOW STYLE/HALF ADDER
+T_opt
+!s110 1756537080
+VcK?:@SCf2Yh9dm;=W^eRR3
+Z1 04 13 4 work half_adder_tb fast 0
+=1-f66444b558ee-68b2a0f7-3e5-1fa8
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1756537149
+V;oIUmUT387l7RUHe16Td^3
+R1
+=1-f66444b558ee-68b2a13d-14a-1ff0
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1756537234
+VBMEiigMEiU4kYMkSke5Mb2
+R1
+=1-f66444b558ee-68b2a191-398-4c3c
+o-quiet -auto_acc_if_foreign -work work -debugdb
+R3
+n@_opt2
+R4
+vhalf_adder
+Z5 !s110 1756537148
+!i10b 1
+!s100 [nJRkKTL@HggaOeARN_oA2
+IkVBb681JY=XAhQS2oKG`>1
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z7 w1756537070
+Z8 8half_adder.v
+Z9 Fhalf_adder.v
+L0 1
+Z10 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z11 !s108 1756537148.000000
+Z12 !s107 half_adder.v|
+Z13 !s90 half_adder.v|
+!i113 0
+Z14 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vhalf_adder_tb
+R5
+!i10b 1
+!s100 WYC8AHR[Uf4JVQE^GA11d3
+IBhTMi]4>nmDDm2>Zk93Rk2
+R6
+R0
+R7
+R8
+R9
+L0 8
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R3

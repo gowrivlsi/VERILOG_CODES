@@ -1,0 +1,71 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VERILOG CODES/DATA FLOW STYLE/MUXES/4TO1 MUX
+T_opt
+!s110 1756548378
+VTbhS`mGDQOgScY^XOFo390
+Z1 04 10 4 work mux4to1_tb fast 0
+=1-f66444b558ee-68b2cd1a-b5-3f44
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1756548589
+VkKzY;01@Sbi8GaIE:LOB_1
+R1
+=1-f66444b558ee-68b2cded-76-2f30
+R2
+R3
+n@_opt1
+R4
+vmux4to1
+Z5 !s110 1756548588
+!i10b 1
+!s100 H70Gg29<ONVCBmZXI=EIZ3
+IRPNHiEVnKTT<39H^alzb70
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z7 w1756548579
+Z8 8mux4to1.v
+Z9 Fmux4to1.v
+L0 1
+Z10 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z11 !s108 1756548588.000000
+Z12 !s107 mux4to1.v|
+Z13 !s90 mux4to1.v|
+!i113 0
+Z14 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vmux4to1_tb
+R5
+!i10b 1
+!s100 Q?=N>I@l[DW]QFIB2OFYd3
+I:6Q@kS9deG6O;1E8YI`?93
+R6
+R0
+R7
+R8
+R9
+L0 16
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R3

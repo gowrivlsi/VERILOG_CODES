@@ -1,0 +1,82 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/VERILOG CODES/DATA FLOW STYLE/COMPARATORS/ALL IN ONE COMP
+T_opt
+!s110 1756724222
+VFAQ=<FT2AF5nh`H6jC96O2
+04 11 4 work compall_top fast 0
+=1-f66444b558ee-68b57bfe-20e-5f7c
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vcompall
+Z2 !s110 1756724221
+!i10b 1
+!s100 >HB`WM1YZIcNZUj=OoS=C0
+ICMz4dm0f8WVOXPWiYT^PK2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1756724216
+Z5 8compall.v
+Z6 Fcompall.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1756724221.000000
+Z9 !s107 compall.v|
+Z10 !s90 compall.v|
+!i113 0
+Z11 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vcompall_tb
+R2
+!i10b 1
+!s100 ?OhXof7EUE>A7C`2`9fne1
+ImY8:=hD:2QKH_b[QBeoTG0
+R3
+R0
+R4
+R5
+R6
+L0 12
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vcompall_top
+R2
+!i10b 1
+!s100 _m^Nbcj1OEfl2bSB_?cEg0
+ISazVS[a]YnMAi=DBD=VlG3
+R3
+R0
+R4
+R5
+R6
+L0 27
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1

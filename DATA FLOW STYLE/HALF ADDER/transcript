@@ -1,0 +1,164 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+ls
+# half_adder.v  transcript          
+vlog half_adder.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:22:17 on Aug 30,2025
+# vlog -reportprogress 300 half_adder.v "+acc" 
+# -- Compiling module half_adder
+# -- Compiling module half_adder_tb
+# ** Error: (vlog-13069) half_adder.v(14): near "initial": syntax error, unexpected initial, expecting ';' or ','.
+# ** Error: half_adder.v(17): (vlog-13205) Syntax error found in the scope following 'b'. Is there a missing '::'?
+# End time: 12:22:17 on Aug 30,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog half_adder.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:22:46 on Aug 30,2025
+# vlog -reportprogress 300 half_adder.v "+acc" 
+# -- Compiling module half_adder
+# -- Compiling module half_adder_tb
+# ** Error: (vlog-13069) half_adder.v(14): near "initial": syntax error, unexpected initial, expecting ';' or ','.
+# ** Error: half_adder.v(17): (vlog-13205) Syntax error found in the scope following 'b'. Is there a missing '::'?
+# End time: 12:22:46 on Aug 30,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog half_adder.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:24:35 on Aug 30,2025
+# vlog -reportprogress 300 half_adder.v "+acc" 
+# -- Compiling module half_adder
+# -- Compiling module half_adder_tb
+# 
+# Top level modules:
+# 	half_adder_tb
+# End time: 12:24:35 on Aug 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim half_adder_tb
+# vsim half_adder_tb 
+# Start time: 12:24:51 on Aug 30,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.half_adder_tb(fast)
+# Loading work.half_adder(fast)
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$rabdom' is not defined.
+#    Time: 0 ns  Iteration: 0  Instance: /half_adder_tb File: half_adder.v Line: 18
+add wave *
+run -all
+# a=0 b=x s=x cout=0 Time=0
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$rabdom'
+#    Time: 10 ns  Iteration: 0  Process: /half_adder_tb/#INITIAL#14 File: half_adder.v Line: 18
+# a=0 b=0 s=0 cout=0 Time=10
+# a=1 b=0 s=1 cout=0 Time=20
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$rabdom'
+#    Time: 30 ns  Iteration: 0  Process: /half_adder_tb/#INITIAL#14 File: half_adder.v Line: 18
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$rabdom'
+#    Time: 50 ns  Iteration: 0  Process: /half_adder_tb/#INITIAL#14 File: half_adder.v Line: 18
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$rabdom'
+#    Time: 70 ns  Iteration: 0  Process: /half_adder_tb/#INITIAL#14 File: half_adder.v Line: 18
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$rabdom'
+#    Time: 90 ns  Iteration: 0  Process: /half_adder_tb/#INITIAL#14 File: half_adder.v Line: 18
+vlog half_adder.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:25:58 on Aug 30,2025
+# vlog -reportprogress 300 half_adder.v "+acc" 
+# -- Compiling module half_adder
+# -- Compiling module half_adder_tb
+# 
+# Top level modules:
+# 	half_adder_tb
+# End time: 12:25:58 on Aug 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim half_adder_tb
+# End time: 12:26:04 on Aug 30,2025, Elapsed time: 0:01:13
+# Errors: 5, Warnings: 1
+# vsim half_adder_tb 
+# Start time: 12:26:04 on Aug 30,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.half_adder_tb(fast)
+# Loading work.half_adder(fast)
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$rabdom' is not defined.
+#    Time: 0 ns  Iteration: 0  Instance: /half_adder_tb File: half_adder.v Line: 18
+add wave *
+run -all
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$rabdom'
+#    Time: 0 ns  Iteration: 0  Process: /half_adder_tb/#INITIAL#14 File: half_adder.v Line: 18
+# a=0 b=0 s=0 cout=0 Time=0
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$rabdom'
+#    Time: 10 ns  Iteration: 0  Process: /half_adder_tb/#INITIAL#14 File: half_adder.v Line: 18
+# a=1 b=0 s=1 cout=0 Time=10
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$rabdom'
+#    Time: 20 ns  Iteration: 0  Process: /half_adder_tb/#INITIAL#14 File: half_adder.v Line: 18
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$rabdom'
+#    Time: 30 ns  Iteration: 0  Process: /half_adder_tb/#INITIAL#14 File: half_adder.v Line: 18
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$rabdom'
+#    Time: 40 ns  Iteration: 0  Process: /half_adder_tb/#INITIAL#14 File: half_adder.v Line: 18
+vlog half_adder.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:27:56 on Aug 30,2025
+# vlog -reportprogress 300 half_adder.v "+acc" 
+# -- Compiling module half_adder
+# -- Compiling module half_adder_tb
+# 
+# Top level modules:
+# 	half_adder_tb
+# End time: 12:27:56 on Aug 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim half_adder_tb
+# End time: 12:27:59 on Aug 30,2025, Elapsed time: 0:01:55
+# Errors: 5, Warnings: 1
+# vsim half_adder_tb 
+# Start time: 12:27:59 on Aug 30,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.half_adder_tb(fast)
+# Loading work.half_adder(fast)
+add wave *
+run -all
+# a=0 b=0 s=0 cout=0 Time=0
+# a=0 b=1 s=1 cout=0 Time=10
+# a=1 b=0 s=1 cout=0 Time=20
+# a=1 b=1 s=0 cout=1 Time=30
+# a=0 b=0 s=0 cout=0 Time=40
+# a=0 b=1 s=1 cout=0 Time=50
+# a=1 b=0 s=1 cout=0 Time=60
+# a=1 b=1 s=0 cout=1 Time=70
+# a=0 b=0 s=0 cout=0 Time=80
+# a=0 b=1 s=1 cout=0 Time=90
+# a=1 b=0 s=1 cout=0 Time=100
+# a=1 b=1 s=0 cout=1 Time=110
+# a=0 b=0 s=0 cout=0 Time=120
+# a=0 b=1 s=1 cout=0 Time=130
+# a=1 b=0 s=1 cout=0 Time=140
+# a=1 b=1 s=0 cout=1 Time=150
+# a=0 b=0 s=0 cout=0 Time=160
+# a=0 b=1 s=1 cout=0 Time=170
+# a=1 b=0 s=1 cout=0 Time=180
+# a=1 b=1 s=0 cout=1 Time=190
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {D:/VERILOG CODES/DATA FLOW STYLE/HALF ADDER/wave.do}
+vsim -debugdb half_adder_tb
+# End time: 12:30:33 on Aug 30,2025, Elapsed time: 0:02:34
+# Errors: 0, Warnings: 0
+# vsim -debugdb half_adder_tb 
+# Start time: 12:30:33 on Aug 30,2025
+# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# Loading work.half_adder_tb(fast)
+# Loading work.half_adder(fast)
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+quit -sim
+# End time: 12:31:06 on Aug 30,2025, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 2
