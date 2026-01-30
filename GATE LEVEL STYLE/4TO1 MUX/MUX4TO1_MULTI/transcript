@@ -1,0 +1,794 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:47:28 on Aug 25,2025
+# vlog -reportprogress 300 mux4to1_m.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_m
+# -- Compiling module mux4to1_m_tb
+# 
+# Top level modules:
+# 	mux4to1_m_tb
+# End time: 12:47:28 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim mux4to1_m_tb 
+# Start time: 12:47:28 on Aug 25,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: mux4to1_m.v(7): (vopt-2135) Too many port connections. Expected 3, found 4.
+# ** Error: mux4to1_m.v(8): (vopt-2135) Too many port connections. Expected 3, found 4.
+# ** Error: mux4to1_m.v(9): (vopt-2135) Too many port connections. Expected 3, found 4.
+# ** Error: mux4to1_m.v(10): (vopt-2135) Too many port connections. Expected 3, found 4.
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:49:57 on Aug 25,2025
+# vlog -reportprogress 300 mux4to1_m.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_m
+# -- Compiling module mux4to1_m_tb
+# 
+# Top level modules:
+# 	mux4to1_m_tb
+# End time: 12:49:57 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim mux4to1_m_tb 
+# Start time: 12:47:28 on Aug 25,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.mux4to1_m_tb(fast)
+# Loading work.mux4to1_m(fast)
+# Loading work.mux4to1(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m1 File: mux4to1_m.v Line: 7
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m2 File: mux4to1_m.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m3 File: mux4to1_m.v Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m4 File: mux4to1_m.v Line: 10
+# tb_i=[0100]  tb_sel=xx  tb_y=xxxx Time=                   0
+# tb_i=[1001]  tb_sel=01  tb_y=xxxx Time=                   5
+# tb_i=[1101]  tb_sel=11  tb_y=xxxx Time=                  10
+# tb_i=[0101]  tb_sel=01  tb_y=xxxx Time=                  15
+# tb_i=[0001]  tb_sel=10  tb_y=xxxx Time=                  20
+# tb_i=[0110]  tb_sel=01  tb_y=xxxx Time=                  25
+# tb_i=[1101]  tb_sel=01  tb_y=xxxx Time=                  30
+# tb_i=[1001]  tb_sel=00  tb_y=1001 Time=                  35
+# tb_i=[0101]  tb_sel=10  tb_y=xxxx Time=                  40
+# tb_i=[0101]  tb_sel=11  tb_y=xxxx Time=                  50
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:50:54 on Aug 25,2025
+# vlog -reportprogress 300 mux4to1_m.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_m
+# -- Compiling module mux4to1_m_tb
+# 
+# Top level modules:
+# 	mux4to1_m_tb
+# End time: 12:50:54 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:50:55 on Aug 25,2025, Elapsed time: 0:03:27
+# Errors: 4, Warnings: 4
+# vsim mux4to1_m_tb 
+# Start time: 12:50:55 on Aug 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.mux4to1_m_tb(fast)
+# Loading work.mux4to1_m(fast)
+# Loading work.mux4to1(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m1 File: mux4to1_m.v Line: 7
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m2 File: mux4to1_m.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m3 File: mux4to1_m.v Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m4 File: mux4to1_m.v Line: 10
+# tb_i=[0100]  tb_sel=01  tb_y=xxxx Time=                   0
+# tb_i=[1001]  tb_sel=11  tb_y=xxxx Time=                   5
+# tb_i=[1101]  tb_sel=01  tb_y=xxxx Time=                  10
+# tb_i=[0101]  tb_sel=10  tb_y=xxxx Time=                  15
+# tb_i=[0001]  tb_sel=01  tb_y=xxxx Time=                  20
+# tb_i=[0110]  tb_sel=01  tb_y=xxxx Time=                  25
+# tb_i=[1101]  tb_sel=00  tb_y=1101 Time=                  30
+# tb_i=[1001]  tb_sel=10  tb_y=xxxx Time=                  35
+# tb_i=[0101]  tb_sel=10  tb_y=xxxx Time=                  40
+# tb_i=[0101]  tb_sel=11  tb_y=xxxx Time=                  45
+quit -sim
+# End time: 12:53:56 on Aug 25,2025, Elapsed time: 0:03:01
+# Errors: 0, Warnings: 4
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:55:01 on Aug 25,2025
+# vlog -reportprogress 300 mux4to1_m.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_m
+# -- Compiling module mux4to1_m_tb
+# 
+# Top level modules:
+# 	mux4to1_m_tb
+# End time: 12:55:01 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim mux4to1_m_tb 
+# Start time: 12:55:01 on Aug 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.mux4to1_m_tb(fast)
+# Loading work.mux4to1_m(fast)
+# Loading work.mux4to1(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m1 File: mux4to1_m.v Line: 7
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m2 File: mux4to1_m.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m3 File: mux4to1_m.v Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m4 File: mux4to1_m.v Line: 10
+# tb_i=[0100]  tb_sel=xx  tb_y=xxxx Time=                   0
+# tb_i=[0100]  tb_sel=01  tb_y=xxxx Time=                   5
+# tb_i=[1001]  tb_sel=01  tb_y=xxxx Time=                  10
+# tb_i=[1001]  tb_sel=11  tb_y=xxxx Time=                  15
+# tb_i=[1101]  tb_sel=11  tb_y=xxxx Time=                  20
+# tb_i=[1101]  tb_sel=01  tb_y=xxxx Time=                  25
+# tb_i=[0101]  tb_sel=01  tb_y=xxxx Time=                  30
+# tb_i=[0101]  tb_sel=10  tb_y=xxxx Time=                  35
+# tb_i=[0001]  tb_sel=10  tb_y=xxxx Time=                  40
+# tb_i=[0001]  tb_sel=01  tb_y=xxxx Time=                  45
+# tb_i=[0110]  tb_sel=01  tb_y=xxxx Time=                  50
+# tb_i=[1101]  tb_sel=01  tb_y=xxxx Time=                  60
+# tb_i=[1101]  tb_sel=00  tb_y=1101 Time=                  65
+# tb_i=[1001]  tb_sel=00  tb_y=1001 Time=                  70
+# tb_i=[1001]  tb_sel=10  tb_y=xxxx Time=                  75
+# tb_i=[0101]  tb_sel=10  tb_y=xxxx Time=                  80
+# tb_i=[0101]  tb_sel=11  tb_y=xxxx Time=                  95
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:55:45 on Aug 25,2025
+# vlog -reportprogress 300 mux4to1_m.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_m
+# -- Compiling module mux4to1_m_tb
+# 
+# Top level modules:
+# 	mux4to1_m_tb
+# End time: 12:55:45 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:55:46 on Aug 25,2025, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 4
+# vsim mux4to1_m_tb 
+# Start time: 12:55:46 on Aug 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.mux4to1_m_tb(fast)
+# Loading work.mux4to1_m(fast)
+# Loading work.mux4to1(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m1 File: mux4to1_m.v Line: 7
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m2 File: mux4to1_m.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m3 File: mux4to1_m.v Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m4 File: mux4to1_m.v Line: 10
+# tb_i=[xxxx]  tb_sel=xx  tb_y=xxxx Time=                   0
+# tb_i=[0100]  tb_sel=01  tb_y=xxxx Time=                   5
+# tb_i=[1001]  tb_sel=11  tb_y=xxxx Time=                  15
+# tb_i=[1101]  tb_sel=01  tb_y=xxxx Time=                  25
+# tb_i=[0101]  tb_sel=10  tb_y=xxxx Time=                  35
+# tb_i=[0001]  tb_sel=01  tb_y=xxxx Time=                  45
+# tb_i=[0110]  tb_sel=01  tb_y=xxxx Time=                  55
+# tb_i=[1101]  tb_sel=00  tb_y=1101 Time=                  65
+# tb_i=[1001]  tb_sel=10  tb_y=xxxx Time=                  75
+# tb_i=[0101]  tb_sel=10  tb_y=xxxx Time=                  85
+# tb_i=[0101]  tb_sel=11  tb_y=xxxx Time=                  95
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:56:08 on Aug 25,2025
+# vlog -reportprogress 300 mux4to1_m.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_m
+# -- Compiling module mux4to1_m_tb
+# 
+# Top level modules:
+# 	mux4to1_m_tb
+# End time: 12:56:08 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:56:09 on Aug 25,2025, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 4
+# vsim mux4to1_m_tb 
+# Start time: 12:56:09 on Aug 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.mux4to1_m_tb(fast)
+# Loading work.mux4to1_m(fast)
+# Loading work.mux4to1(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m1 File: mux4to1_m.v Line: 7
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m2 File: mux4to1_m.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m3 File: mux4to1_m.v Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m4 File: mux4to1_m.v Line: 10
+# tb_i=[xxxx]  tb_sel=xx  tb_y=xxxx Time=                   0
+# tb_i=[0100]  tb_sel=xx  tb_y=xxxx Time=                   5
+# tb_i=[0100]  tb_sel=01  tb_y=xxxx Time=                  10
+# tb_i=[1001]  tb_sel=01  tb_y=xxxx Time=                  20
+# tb_i=[1001]  tb_sel=11  tb_y=xxxx Time=                  25
+# tb_i=[1101]  tb_sel=11  tb_y=xxxx Time=                  35
+# tb_i=[1101]  tb_sel=01  tb_y=xxxx Time=                  40
+# tb_i=[0101]  tb_sel=01  tb_y=xxxx Time=                  50
+# tb_i=[0101]  tb_sel=10  tb_y=xxxx Time=                  55
+# tb_i=[0001]  tb_sel=10  tb_y=xxxx Time=                  65
+# tb_i=[0001]  tb_sel=01  tb_y=xxxx Time=                  70
+# tb_i=[0110]  tb_sel=01  tb_y=xxxx Time=                  80
+# tb_i=[1101]  tb_sel=01  tb_y=xxxx Time=                  95
+# tb_i=[1101]  tb_sel=00  tb_y=1101 Time=                 100
+# tb_i=[1001]  tb_sel=00  tb_y=1001 Time=                 110
+# tb_i=[1001]  tb_sel=10  tb_y=xxxx Time=                 115
+# tb_i=[0101]  tb_sel=10  tb_y=xxxx Time=                 125
+# tb_i=[0101]  tb_sel=11  tb_y=xxxx Time=                 145
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:59:11 on Aug 25,2025
+# vlog -reportprogress 300 mux4to1_m.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_m
+# -- Compiling module mux4to1_m_tb
+# ** Error: mux4to1_m.v(30): (vlog-2730) Undefined variable: 'x'.
+# End time: 12:59:11 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog mux4to1_m.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:00:24 on Aug 25,2025
+# vlog -reportprogress 300 mux4to1_m.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_m
+# -- Compiling module mux4to1_m_tb
+# 
+# Top level modules:
+# 	mux4to1_m_tb
+# End time: 13:00:24 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:00:25 on Aug 25,2025, Elapsed time: 0:04:16
+# Errors: 4, Warnings: 4
+# vsim mux4to1_m_tb 
+# Start time: 13:00:25 on Aug 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.mux4to1_m_tb(fast)
+# Loading work.mux4to1_m(fast)
+# Loading work.mux4to1(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m1 File: mux4to1_m.v Line: 7
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m2 File: mux4to1_m.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m3 File: mux4to1_m.v Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m4 File: mux4to1_m.v Line: 10
+# tb_i=[0100]  tb_sel=xx  tb_y=xxxx Time=                   0
+# tb_i=[0001]  tb_sel=11  tb_y=xxxx Time=                   5
+# tb_i=[1001]  tb_sel=11  tb_y=xxxx Time=                  10
+# tb_i=[0011]  tb_sel=11  tb_y=xxxx Time=                  15
+# tb_i=[1101]  tb_sel=11  tb_y=xxxx Time=                  20
+# tb_i=[0101]  tb_sel=11  tb_y=xxxx Time=                  30
+# tb_i=[0010]  tb_sel=11  tb_y=xxxx Time=                  35
+# tb_i=[0001]  tb_sel=11  tb_y=xxxx Time=                  40
+# tb_i=[1101]  tb_sel=11  tb_y=xxxx Time=                  45
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:04:03 on Aug 25,2025
+# vlog -reportprogress 300 mux4to1_m.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_m
+# -- Compiling module mux4to1_m_tb
+# ** Error: mux4to1_m.v(32): (vlog-2730) Undefined variable: 'sel'.
+# End time: 13:04:03 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog mux4to1_m.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:04:18 on Aug 25,2025
+# vlog -reportprogress 300 mux4to1_m.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_m
+# -- Compiling module mux4to1_m_tb
+# 
+# Top level modules:
+# 	mux4to1_m_tb
+# End time: 13:04:18 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:04:18 on Aug 25,2025, Elapsed time: 0:03:53
+# Errors: 4, Warnings: 4
+# vsim mux4to1_m_tb 
+# Start time: 13:04:18 on Aug 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.mux4to1_m_tb(fast)
+# Loading work.mux4to1_m(fast)
+# Loading work.mux4to1(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m1 File: mux4to1_m.v Line: 7
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m2 File: mux4to1_m.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m3 File: mux4to1_m.v Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m4 File: mux4to1_m.v Line: 10
+# tb_i=[0100]  tb_sel=xx  tb_y=xxxx Time=                   0
+# tb_i=[0001]  tb_sel=xx  tb_y=xxxx Time=                   5
+# tb_i=[1001]  tb_sel=xx  tb_y=xxxx Time=                  10
+# tb_i=[0011]  tb_sel=xx  tb_y=xxxx Time=                  15
+# tb_i=[1101]  tb_sel=xx  tb_y=xxxx Time=                  20
+# tb_i=[0101]  tb_sel=xx  tb_y=xxxx Time=                  30
+# tb_i=[0010]  tb_sel=xx  tb_y=xxxx Time=                  35
+# tb_i=[0001]  tb_sel=xx  tb_y=xxxx Time=                  40
+# tb_i=[1101]  tb_sel=xx  tb_y=xxxx Time=                  45
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:06:27 on Aug 25,2025
+# vlog -reportprogress 300 mux4to1_m.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_m
+# -- Compiling module mux4to1_m_tb
+# 
+# Top level modules:
+# 	mux4to1_m_tb
+# End time: 13:06:27 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:06:28 on Aug 25,2025, Elapsed time: 0:02:10
+# Errors: 0, Warnings: 4
+# vsim mux4to1_m_tb 
+# Start time: 13:06:28 on Aug 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.mux4to1_m_tb(fast)
+# Loading work.mux4to1_m(fast)
+# Loading work.mux4to1(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m1 File: mux4to1_m.v Line: 7
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m2 File: mux4to1_m.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m3 File: mux4to1_m.v Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m4 File: mux4to1_m.v Line: 10
+# tb_i=[0100]  tb_sel=xx  tb_y=xxxx Time=                   0
+# tb_i=[0100]  tb_sel=01  tb_y=xxxx Time=                   5
+# tb_i=[1001]  tb_sel=01  tb_y=xxxx Time=                  10
+# tb_i=[1001]  tb_sel=11  tb_y=xxxx Time=                  15
+# tb_i=[1101]  tb_sel=11  tb_y=xxxx Time=                  20
+# tb_i=[1101]  tb_sel=01  tb_y=xxxx Time=                  25
+# tb_i=[0101]  tb_sel=01  tb_y=xxxx Time=                  30
+# tb_i=[0101]  tb_sel=10  tb_y=xxxx Time=                  35
+# tb_i=[0001]  tb_sel=10  tb_y=xxxx Time=                  40
+# tb_i=[0001]  tb_sel=01  tb_y=xxxx Time=                  45
+# tb_i=[0110]  tb_sel=01  tb_y=xxxx Time=                  50
+# tb_i=[1101]  tb_sel=01  tb_y=xxxx Time=                  60
+# tb_i=[1101]  tb_sel=00  tb_y=1101 Time=                  65
+# tb_i=[1001]  tb_sel=00  tb_y=1001 Time=                  70
+# tb_i=[1001]  tb_sel=10  tb_y=xxxx Time=                  75
+# tb_i=[0101]  tb_sel=10  tb_y=xxxx Time=                  80
+# tb_i=[0101]  tb_sel=11  tb_y=xxxx Time=                  95
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:31:07 on Aug 25,2025
+# vlog -reportprogress 300 mux4to1_m.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_m
+# ** Error (suppressible): mux4to1_m.v(7): (vlog-10008) Too many indices (2) for array type i (dimensionality 1).
+# -- Compiling module mux4to1_m_tb
+# End time: 13:31:07 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog mux4to1_m.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:32:27 on Aug 25,2025
+# vlog -reportprogress 300 mux4to1_m.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_m
+# -- Compiling module mux4to1_m_tb
+# 
+# Top level modules:
+# 	mux4to1_m_tb
+# End time: 13:32:27 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:32:28 on Aug 25,2025, Elapsed time: 0:26:00
+# Errors: 3, Warnings: 4
+# vsim mux4to1_m_tb 
+# Start time: 13:32:28 on Aug 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error: mux4to1_m.v(7): (vopt-2135) Too many port connections. Expected 3, found 6.
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:33:55 on Aug 25,2025
+# vlog -reportprogress 300 mux4to1_m.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_m
+# -- Compiling module mux4to1_m_tb
+# 
+# Top level modules:
+# 	mux4to1_m_tb
+# End time: 13:33:55 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim mux4to1_m_tb 
+# Start time: 13:32:28 on Aug 25,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.mux4to1_m_tb(fast)
+# Loading work.mux4to1_m(fast)
+# Loading work.mux4to1(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m1 File: mux4to1_m.v Line: 7
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m2 File: mux4to1_m.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m3 File: mux4to1_m.v Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m4 File: mux4to1_m.v Line: 10
+# tb_i=[0100]  tb_sel=xx  tb_y=xxxx Time=                   0
+# tb_i=[0100]  tb_sel=01  tb_y=xxxx Time=                   5
+# tb_i=[1001]  tb_sel=01  tb_y=xxxx Time=                  10
+# tb_i=[1001]  tb_sel=11  tb_y=xxxx Time=                  15
+# tb_i=[1101]  tb_sel=11  tb_y=xxxx Time=                  20
+# tb_i=[1101]  tb_sel=01  tb_y=xxxx Time=                  25
+# tb_i=[0101]  tb_sel=01  tb_y=xxxx Time=                  30
+# tb_i=[0101]  tb_sel=10  tb_y=xxxx Time=                  35
+# tb_i=[0001]  tb_sel=10  tb_y=xxxx Time=                  40
+# tb_i=[0001]  tb_sel=01  tb_y=xxxx Time=                  45
+# tb_i=[0110]  tb_sel=01  tb_y=xxxx Time=                  50
+# tb_i=[1101]  tb_sel=01  tb_y=xxxx Time=                  60
+# tb_i=[1101]  tb_sel=00  tb_y=1101 Time=                  65
+# tb_i=[1001]  tb_sel=00  tb_y=1001 Time=                  70
+# tb_i=[1001]  tb_sel=10  tb_y=xxxx Time=                  75
+# tb_i=[0101]  tb_sel=10  tb_y=xxxx Time=                  80
+# tb_i=[0101]  tb_sel=11  tb_y=xxxx Time=                  95
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:35:55 on Aug 25,2025
+# vlog -reportprogress 300 mux4to1_m.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_m
+# ** Error: mux4to1_m.v(9): (vlog-2884) Bit-select into 's' is out of bounds.
+# ** Error: mux4to1_m.v(10): (vlog-2884) Bit-select into 's' is out of bounds.
+# -- Compiling module mux4to1_m_tb
+# End time: 13:35:56 on Aug 25,2025, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog mux4to1_m.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:36:12 on Aug 25,2025
+# vlog -reportprogress 300 mux4to1_m.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_m
+# -- Compiling module mux4to1_m_tb
+# 
+# Top level modules:
+# 	mux4to1_m_tb
+# End time: 13:36:12 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:36:13 on Aug 25,2025, Elapsed time: 0:03:45
+# Errors: 6, Warnings: 4
+# vsim mux4to1_m_tb 
+# Start time: 13:36:13 on Aug 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.mux4to1_m_tb(fast)
+# Loading work.mux4to1_m(fast)
+# Loading work.mux4to1(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m1 File: mux4to1_m.v Line: 7
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 's'. The port definition is at: mux4to1.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m1 File: mux4to1_m.v Line: 7
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m2 File: mux4to1_m.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 's'. The port definition is at: mux4to1.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m2 File: mux4to1_m.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m3 File: mux4to1_m.v Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 's'. The port definition is at: mux4to1.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m3 File: mux4to1_m.v Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m4 File: mux4to1_m.v Line: 10
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 's'. The port definition is at: mux4to1.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m4 File: mux4to1_m.v Line: 10
+# tb_i=[0100]  tb_sel=xx  tb_y=xxxx Time=                   0
+# tb_i=[0100]  tb_sel=01  tb_y=xxxx Time=                   5
+# tb_i=[1001]  tb_sel=01  tb_y=xxxx Time=                  10
+# tb_i=[1001]  tb_sel=11  tb_y=xxxx Time=                  15
+# tb_i=[1101]  tb_sel=11  tb_y=xxxx Time=                  20
+# tb_i=[1101]  tb_sel=01  tb_y=xxxx Time=                  25
+# tb_i=[0101]  tb_sel=01  tb_y=xxxx Time=                  30
+# tb_i=[0101]  tb_sel=10  tb_y=xxxx Time=                  35
+# tb_i=[0001]  tb_sel=10  tb_y=xxxx Time=                  40
+# tb_i=[0001]  tb_sel=01  tb_y=xxxx Time=                  45
+# tb_i=[0110]  tb_sel=01  tb_y=xxxx Time=                  50
+# tb_i=[1101]  tb_sel=01  tb_y=xxxx Time=                  60
+# tb_i=[1101]  tb_sel=00  tb_y=xxxx Time=                  65
+# tb_i=[1001]  tb_sel=00  tb_y=xxxx Time=                  70
+# tb_i=[1001]  tb_sel=10  tb_y=xxxx Time=                  75
+# tb_i=[0101]  tb_sel=10  tb_y=xxxx Time=                  80
+# tb_i=[0101]  tb_sel=11  tb_y=xxxx Time=                  95
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:39:07 on Aug 25,2025
+# vlog -reportprogress 300 mux4to1_m.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_m
+# -- Compiling module mux4to1_m_tb
+# 
+# Top level modules:
+# 	mux4to1_m_tb
+# End time: 13:39:07 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:39:08 on Aug 25,2025, Elapsed time: 0:02:55
+# Errors: 0, Warnings: 8
+# vsim mux4to1_m_tb 
+# Start time: 13:39:08 on Aug 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.mux4to1_m_tb(fast)
+# Loading work.mux4to1_m(fast)
+# Loading work.mux4to1(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m1 File: mux4to1_m.v Line: 7
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m2 File: mux4to1_m.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m3 File: mux4to1_m.v Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m4 File: mux4to1_m.v Line: 10
+# tb_i=[0100]  tb_sel=xx  tb_y=xxxx Time=                   0
+# tb_i=[0100]  tb_sel=01  tb_y=xxxx Time=                   5
+# tb_i=[1001]  tb_sel=01  tb_y=xxxx Time=                  10
+# tb_i=[1001]  tb_sel=11  tb_y=xxxx Time=                  15
+# tb_i=[1101]  tb_sel=11  tb_y=xxxx Time=                  20
+# tb_i=[1101]  tb_sel=01  tb_y=xxxx Time=                  25
+# tb_i=[0101]  tb_sel=01  tb_y=xxxx Time=                  30
+# tb_i=[0101]  tb_sel=10  tb_y=xxxx Time=                  35
+# tb_i=[0001]  tb_sel=10  tb_y=xxxx Time=                  40
+# tb_i=[0001]  tb_sel=01  tb_y=xxxx Time=                  45
+# tb_i=[0110]  tb_sel=01  tb_y=xxxx Time=                  50
+# tb_i=[1101]  tb_sel=01  tb_y=xxxx Time=                  60
+# tb_i=[1101]  tb_sel=00  tb_y=1101 Time=                  65
+# tb_i=[1001]  tb_sel=00  tb_y=1001 Time=                  70
+# tb_i=[1001]  tb_sel=10  tb_y=xxxx Time=                  75
+# tb_i=[0101]  tb_sel=10  tb_y=xxxx Time=                  80
+# tb_i=[0101]  tb_sel=11  tb_y=xxxx Time=                  95
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:42:36 on Aug 25,2025
+# vlog -reportprogress 300 mux4to1_m.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_m
+# -- Compiling module mux4to1_m_tb
+# 
+# Top level modules:
+# 	mux4to1_m_tb
+# End time: 13:42:37 on Aug 25,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 13:42:37 on Aug 25,2025, Elapsed time: 0:03:29
+# Errors: 0, Warnings: 4
+# vsim mux4to1_m_tb 
+# Start time: 13:42:38 on Aug 25,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.mux4to1_m_tb(fast)
+# Loading work.mux4to1_m(fast)
+# Loading work.mux4to1(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m1 File: mux4to1_m.v Line: 7
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m2 File: mux4to1_m.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m3 File: mux4to1_m.v Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'i'. The port definition is at: mux4to1.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /mux4to1_m_tb/M1/m4 File: mux4to1_m.v Line: 10
+# tb_i=[0100]  tb_sel=xx  tb_y=xxxx Time=                   0
+# tb_i=[0100]  tb_sel=01  tb_y=xxxx Time=                   5
+# tb_i=[1001]  tb_sel=01  tb_y=xxxx Time=                  10
+# tb_i=[1001]  tb_sel=11  tb_y=xxxx Time=                  15
+# tb_i=[1101]  tb_sel=11  tb_y=xxxx Time=                  20
+# tb_i=[1101]  tb_sel=01  tb_y=xxxx Time=                  25
+# tb_i=[0101]  tb_sel=01  tb_y=xxxx Time=                  30
+# tb_i=[0101]  tb_sel=10  tb_y=xxxx Time=                  35
+# tb_i=[0001]  tb_sel=10  tb_y=xxxx Time=                  40
+# tb_i=[0001]  tb_sel=01  tb_y=xxxx Time=                  45
+# tb_i=[0110]  tb_sel=01  tb_y=xxxx Time=                  50
+# tb_i=[1101]  tb_sel=01  tb_y=xxxx Time=                  60
+# tb_i=[1101]  tb_sel=00  tb_y=1101 Time=                  65
+# tb_i=[1001]  tb_sel=00  tb_y=1001 Time=                  70
+# tb_i=[1001]  tb_sel=10  tb_y=xxxx Time=                  75
+# tb_i=[0101]  tb_sel=10  tb_y=xxxx Time=                  80
+# tb_i=[0101]  tb_sel=11  tb_y=xxxx Time=                  95
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:54:53 on Aug 25,2025
+# vlog -reportprogress 300 mux4to1_m.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_m
+# ** Error: (vlog-13069) mux4to1_m.v(27): near ".": syntax error, unexpected '.', expecting ')'.
+# -- Compiling module mux4to1_m_tb
+# End time: 13:54:53 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog mux4to1_m.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:55:34 on Aug 25,2025
+# vlog -reportprogress 300 mux4to1_m.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_m
+# -- Compiling module mux4to1_m_tb
+# 
+# Top level modules:
+# 	mux4to1_m_tb
+# End time: 13:55:34 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:55:35 on Aug 25,2025, Elapsed time: 0:12:57
+# Errors: 4, Warnings: 4
+# vsim mux4to1_m_tb 
+# Start time: 13:55:35 on Aug 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error (suppressible): mux4to1_m.v(40): (vopt-2912) Port 'i' not found in module 'mux4to1_m' (1st connection).
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+quit -sim
+# End time: 13:57:58 on Aug 25,2025, Elapsed time: 0:02:23
+# Errors: 1, Warnings: 0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:58:09 on Aug 25,2025
+# vlog -reportprogress 300 mux4to1_m.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_m
+# -- Compiling module mux4to1_m_tb
+# ** Error: mux4to1_m.v(47): (vlog-2730) Undefined variable: 'tb_i'.
+# End time: 13:58:09 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog mux4to1_m.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:01:56 on Aug 25,2025
+# vlog -reportprogress 300 mux4to1_m.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_m
+# -- Compiling module mux4to1_m_tb
+# ** Error: (vlog-13069) mux4to1_m.v(48): near "tb_sel": syntax error, unexpected IDENTIFIER, expecting ';'.
+# End time: 14:01:56 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog mux4to1_m.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:02:24 on Aug 25,2025
+# vlog -reportprogress 300 mux4to1_m.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_m
+# -- Compiling module mux4to1_m_tb
+# ** Error: mux4to1_m.v(47): (vlog-2110) Illegal reference to net "tb_i3".
+# End time: 14:02:24 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog mux4to1_m.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:03:57 on Aug 25,2025
+# vlog -reportprogress 300 mux4to1_m.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_m
+# -- Compiling module mux4to1_m_tb
+# ** Error: mux4to1_m.v(47): (vlog-2110) Illegal reference to net "tb_i3".
+# End time: 14:03:57 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog mux4to1_m.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:08:00 on Aug 25,2025
+# vlog -reportprogress 300 mux4to1_m.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_m
+# -- Compiling module mux4to1_m_tb
+# ** Error: mux4to1_m.v(50): (vlog-2110) Illegal reference to net "tb_i3".
+# End time: 14:08:00 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog mux4to1_m.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:08:20 on Aug 25,2025
+# vlog -reportprogress 300 mux4to1_m.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_m
+# -- Compiling module mux4to1_m_tb
+# ** Error: mux4to1_m.v(50): (vlog-2110) Illegal reference to net "tb_i3".
+# End time: 14:08:20 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog mux4to1_m.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:09:20 on Aug 25,2025
+# vlog -reportprogress 300 mux4to1_m.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_m
+# -- Compiling module mux4to1_m_tb
+# 
+# Top level modules:
+# 	mux4to1_m_tb
+# End time: 14:09:20 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim mux4to1_m_tb 
+# Start time: 14:09:20 on Aug 25,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.mux4to1_m_tb(fast)
+# Loading work.mux4to1_m(fast)
+# Loading work.mux4to1(fast)
+# tb_i0=0100 tb_i1=0001 tb_i2=1001 tb_i3=0011  tb_sel=01  tb_y=0001 Time=                   0
+# tb_i0=1101 tb_i1=0101 tb_i2=0010 tb_i3=0001  tb_sel=01  tb_y=0101 Time=                   5
+# tb_i0=0110 tb_i1=1101 tb_i2=1101 tb_i3=1100  tb_sel=01  tb_y=1101 Time=                  10
+# tb_i0=0110 tb_i1=0101 tb_i2=1010 tb_i3=0101  tb_sel=11  tb_y=0101 Time=                  15
+# tb_i0=0010 tb_i1=1111 tb_i2=0010 tb_i3=1110  tb_sel=00  tb_y=0010 Time=                  20
+# tb_i0=0101 tb_i1=1100 tb_i2=1101 tb_i3=1101  tb_sel=01  tb_y=1100 Time=                  25
+# tb_i0=0011 tb_i1=1010 tb_i2=0000 tb_i3=0000  tb_sel=10  tb_y=0000 Time=                  30
+# tb_i0=1101 tb_i1=0110 tb_i2=0011 tb_i3=1101  tb_sel=11  tb_y=1101 Time=                  35
+# tb_i0=1011 tb_i1=0101 tb_i2=0010 tb_i3=1110  tb_sel=01  tb_y=0101 Time=                  40
+# tb_i0=1111 tb_i1=0011 tb_i2=1010 tb_i3=1010  tb_sel=00  tb_y=1111 Time=                  45
+quit -sim
+# End time: 14:16:02 on Aug 25,2025, Elapsed time: 0:06:42
+# Errors: 0, Warnings: 0

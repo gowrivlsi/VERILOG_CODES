@@ -1,0 +1,145 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VERILOG CODES/GATE LEVEL STYLE/BINARY TO GRAY & VICE VERSA/BG TO GB
+T_opt
+!s110 1756366435
+V]Dz5VboAWQILV:PNAiP5@0
+04 10 4 work bgtogb2_tb fast 0
+=1-f66444b558ee-68b00663-9d-22f4
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vbgtogb2
+Z2 !s110 1756366421
+!i10b 1
+!s100 ]^XdE9Bh@2E;Y1AdJc9ZZ1
+IV7ja1P;m8b3IG_6Zb<mS32
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1756366413
+Z5 8bgtobg3.v
+Z6 Fbgtobg3.v
+L0 3
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1756366421.000000
+Z9 !s107 gtob2.v|btog1.v|bgtobg3.v|
+Z10 !s90 -reportprogress|300|bgtobg3.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vbgtogb2_tb
+R2
+!i10b 1
+!s100 f`eY46Y0>W1D7AmF>ITM42
+InN4:bOb33M@RKEaBkTF7S0
+R3
+R0
+R4
+R5
+R6
+Z12 L0 13
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vbtog1
+R2
+!i10b 1
+!s100 giGR8bKIVim31nC1?z5Fz3
+I>mSC2_lej9D631^3[4j=T2
+R3
+R0
+Z13 w1756364395
+Z14 8btog1.v
+Z15 Fbtog1.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vbtog1_tb
+R2
+!i10b 1
+!s100 G:445Mgz7EX4H0W4YK5Ph2
+I:L^oRd>HN[=3Jn>=`DSQ22
+R3
+R0
+R13
+R14
+R15
+R12
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vgtob2
+R2
+!i10b 1
+!s100 UoFbU9c@P]]B5>a`M[^D20
+IF6Ti?fNiz7RDK8?AUGb6?1
+R3
+R0
+Z16 w1756365300
+Z17 8gtob2.v
+Z18 Fgtob2.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vgtob2_tb
+R2
+!i10b 1
+!s100 NE6G0@ACmP=D2C62UI9nG1
+IU:II;9ok?EZLmn]:DbA4`1
+R3
+R0
+R16
+R17
+R18
+R12
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1

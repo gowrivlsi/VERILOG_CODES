@@ -1,0 +1,89 @@
+Start time: 21:43:07 on Aug 29,2025
+qverilog operators.v 
+-- Compiling module operators
+** Warning: operators.v(111): (qverilog-2697) MSB of part-select into 'b' is out of bounds.
+** Warning: operators.v(111): (qverilog-2697) MSB of part-select into 'a' is out of bounds.
+
+Top level modules:
+	operators
+# vsim -lib work work.operators -c -do "run -all; quit -f" -appendlog -l qverilog.log -vopt 
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.operators(fast)
+# run -all
+# 1]ARTHEMETIC OPERATOR-----------
+# Addition     10
+# Subtraction      6
+# Multiplication     16
+# Division      4
+# Modulus      0
+# Power     64
+# -------------------------------------------------------------------
+# 2]LOGICAL OPERATORS-----------------------------
+# Logical And      1
+# Logival Or      1
+# Logical Not of a      0
+# Logical Not of b      0
+# --------------------------------------------------------------------
+# 3]RELATIONAL OPERATOR----------------------------
+# Grater Than      1
+# Less Than      0
+# Less Than Equal      0
+# Greater Than Equal      0
+# -----------------------------------------------------------------------
+# 4]Equality operator----------------------------------
+# Logical Equal To 00000000000000000
+# Logical Not Equal to 00000000000000001
+# Case Equal To 00000000000000000
+# Case not equal to 00000000000000000
+# -----------------------------------------------------------------------
+# 5]BITWISE OPERATOR-----------------------------------------------
+# bitwise And 00000000000000000
+# Bitwise Or 00000000000001010
+# Bitwise Not 11111111111110111
+# Bitwise Nand 11111111111111111
+# Bitwise Nor 11111111111110101
+# Bitwise Xor 00000000000001010
+# Bitwise Xnor 11111111111110101
+# ------------------------------------------------------------------------
+# 6]REDUCTION OPERATOR
+# REDUCTION bitwise And 00000000000000000
+# REDUCTION Bitwise Or 00000000000000001
+# REDUCTION Bitwise Not 11111111111110111
+# REDUCTION Bitwise Nand 11111111111111111
+# REDUCTION Bitwise Nor 11111111111111110
+# REDUCTION Bitwise Xor 00000000000000001
+# REDUCTION Bitwise Xnor 11111111111111110
+# --------------------------------------------------------------------------
+# 7]SHIFTING OPERATOR------------------------------------------------
+# Logical Left Shift 00000000000010000
+# Logical Right Shift 00000000000000100
+# Arthenetic Left Shift 00000000000100000
+# Arthemetic Right Shift 00000000000000010
+# -----------------------------------------------------------------------------
+# 8]CONDITIONAL OR TURNARY OPERATOR-------------------------------------
+# 2to1 mux a=0 8 b=2 y=8 x=8
+# 2to1 mux a=0 8 b=2 y=2 x=2
+# -----------------------------------------------------------------------------
+# 9]CONCATENATION--------------------------------------------------------
+# Concatenation of a=01000 b=00010 y=00000100100000010
+# Concatenation of a=01000 b=00010 y=0xxx01000xxx00010
+# ------------------------------------------------------------------------------
+# 10]REPLICATION----------------------------------------------------------
+# Replication of Concatination a=01000 b=00010 y=00000100001100001
+#  quit -f
+# End time: 21:43:10 on Aug 29,2025, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 2

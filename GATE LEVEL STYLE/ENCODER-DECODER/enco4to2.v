@@ -1,0 +1,26 @@
+module enco4to2(
+                input i0,i1,i2,i3,
+                output y0,y1
+                );
+        or o1(y0,i2,i3);
+        or o2(y1,i1,i3);
+endmodule
+
+//testbench code
+module enco4to2_tb();
+        reg i0,i1,i2,i3;
+        wire y0,y1;
+
+        enco4to2 E1(i0,i1,i2,i3,y0,y1);
+
+        initial 
+        repeat(5)
+            begin
+                i0=1;i1=0;i2=0;i3=0;#10;
+                i1=1;i0=0;i2=0;i3=0;#10;
+                i2=1;i0=0;i1=0;i3=0;#10;
+                i3=1;i0=0;i1=0;i2=0;#10;
+            end
+            initial 
+            $monitor("i0=%d i1=%d i2=%d i3=%d y0=%d y1=%d Time=%0t",i0,i1,i2,i3,y0,y1,$time);
+ endmodule

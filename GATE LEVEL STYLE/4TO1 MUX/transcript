@@ -1,0 +1,294 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+ls
+# mux4to1.v  transcript  vsim.wlf  work          
+ls
+# mux4to1.v  run.do  transcript  vsim.wlf  work        
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:52:40 on Aug 25,2025
+# vlog -reportprogress 300 mux4to1.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_tb
+# 
+# Top level modules:
+# 	mux4to1_tb
+# End time: 11:52:41 on Aug 25,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim mux4to1_tb 
+# Start time: 11:52:41 on Aug 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.mux4to1_tb(fast)
+# Loading work.mux4to1(fast)
+# tb_i=[ 4] tb_s1=x tb_s0=x tb_y=x Time=                   0
+# tb_i=[ 4] tb_s1=0 tb_s0=x tb_y=x Time=                  10
+# tb_i=[ 4] tb_s1=0 tb_s0=1 tb_y=x Time=                  20
+# tb_i=[ 1] tb_s1=0 tb_s0=1 tb_y=x Time=                  50
+# tb_i=[ 9] tb_s1=0 tb_s0=1 tb_y=x Time=                 100
+# tb_i=[ 3] tb_s1=0 tb_s0=1 tb_y=1 Time=                 150
+# tb_i=[13] tb_s1=0 tb_s0=1 tb_y=x Time=                 200
+# tb_i=[ 5] tb_s1=0 tb_s0=1 tb_y=x Time=                 300
+# tb_i=[ 2] tb_s1=0 tb_s0=1 tb_y=1 Time=                 350
+# tb_i=[ 1] tb_s1=0 tb_s0=1 tb_y=x Time=                 400
+# tb_i=[13] tb_s1=0 tb_s0=1 tb_y=x Time=                 450
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:54:35 on Aug 25,2025
+# vlog -reportprogress 300 mux4to1.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_tb
+# 
+# Top level modules:
+# 	mux4to1_tb
+# End time: 11:54:35 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:54:36 on Aug 25,2025, Elapsed time: 0:01:55
+# Errors: 0, Warnings: 0
+# vsim mux4to1_tb 
+# Start time: 11:54:36 on Aug 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.mux4to1_tb(fast)
+# Loading work.mux4to1(fast)
+# tb_i=[ 4] tb_s1=0 tb_s0=1 tb_y=x Time=                   0
+# tb_i=[ 1] tb_s1=0 tb_s0=1 tb_y=x Time=                  20
+# tb_i=[ 9] tb_s1=0 tb_s0=1 tb_y=x Time=                  40
+# tb_i=[ 3] tb_s1=0 tb_s0=1 tb_y=1 Time=                  60
+# tb_i=[13] tb_s1=0 tb_s0=1 tb_y=x Time=                  80
+# tb_i=[ 5] tb_s1=0 tb_s0=1 tb_y=x Time=                 120
+# tb_i=[ 2] tb_s1=0 tb_s0=1 tb_y=1 Time=                 140
+# tb_i=[ 1] tb_s1=0 tb_s0=1 tb_y=x Time=                 160
+# tb_i=[13] tb_s1=0 tb_s0=1 tb_y=x Time=                 180
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:55:57 on Aug 25,2025
+# vlog -reportprogress 300 mux4to1.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_tb
+# 
+# Top level modules:
+# 	mux4to1_tb
+# End time: 11:55:57 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:55:58 on Aug 25,2025, Elapsed time: 0:01:22
+# Errors: 0, Warnings: 0
+# vsim mux4to1_tb 
+# Start time: 11:55:58 on Aug 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.mux4to1_tb(fast)
+# Loading work.mux4to1(fast)
+# tb_i=[0100] tb_s1=0 tb_s0=1 tb_y=x Time=                   0
+# tb_i=[0001] tb_s1=0 tb_s0=1 tb_y=x Time=                  20
+# tb_i=[1001] tb_s1=0 tb_s0=1 tb_y=x Time=                  40
+# tb_i=[0011] tb_s1=0 tb_s0=1 tb_y=1 Time=                  60
+# tb_i=[1101] tb_s1=0 tb_s0=1 tb_y=x Time=                  80
+# tb_i=[0101] tb_s1=0 tb_s0=1 tb_y=x Time=                 120
+# tb_i=[0010] tb_s1=0 tb_s0=1 tb_y=1 Time=                 140
+# tb_i=[0001] tb_s1=0 tb_s0=1 tb_y=x Time=                 160
+# tb_i=[1101] tb_s1=0 tb_s0=1 tb_y=x Time=                 180
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:02:09 on Aug 25,2025
+# vlog -reportprogress 300 mux4to1.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_tb
+# 
+# Top level modules:
+# 	mux4to1_tb
+# End time: 12:02:09 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:02:09 on Aug 25,2025, Elapsed time: 0:06:11
+# Errors: 0, Warnings: 0
+# vsim mux4to1_tb 
+# Start time: 12:02:09 on Aug 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.mux4to1_tb(fast)
+# Loading work.mux4to1(fast)
+# tb_i=[0100] tb_s=[01]  tb_y=x Time=                   0
+# tb_i=[0100] tb_s=[11]  tb_y=x Time=                  10
+# tb_i=[0001] tb_s=[01]  tb_y=x Time=                  20
+# tb_i=[0001] tb_s=[11]  tb_y=x Time=                  30
+# tb_i=[1001] tb_s=[01]  tb_y=x Time=                  40
+# tb_i=[1001] tb_s=[11]  tb_y=x Time=                  50
+# tb_i=[0011] tb_s=[01]  tb_y=1 Time=                  60
+# tb_i=[0011] tb_s=[11]  tb_y=x Time=                  70
+# tb_i=[1101] tb_s=[01]  tb_y=x Time=                  80
+# tb_i=[1101] tb_s=[11]  tb_y=x Time=                  90
+# tb_i=[1101] tb_s=[01]  tb_y=x Time=                 100
+# tb_i=[1101] tb_s=[11]  tb_y=x Time=                 110
+# tb_i=[0101] tb_s=[01]  tb_y=x Time=                 120
+# tb_i=[0101] tb_s=[11]  tb_y=x Time=                 130
+# tb_i=[0010] tb_s=[01]  tb_y=1 Time=                 140
+# tb_i=[0010] tb_s=[11]  tb_y=x Time=                 150
+# tb_i=[0001] tb_s=[01]  tb_y=x Time=                 160
+# tb_i=[0001] tb_s=[11]  tb_y=x Time=                 170
+# tb_i=[1101] tb_s=[01]  tb_y=x Time=                 180
+# tb_i=[1101] tb_s=[11]  tb_y=x Time=                 190
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:02:46 on Aug 25,2025
+# vlog -reportprogress 300 mux4to1.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_tb
+# 
+# Top level modules:
+# 	mux4to1_tb
+# End time: 12:02:46 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:02:47 on Aug 25,2025, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 0
+# vsim mux4to1_tb 
+# Start time: 12:02:47 on Aug 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.mux4to1_tb(fast)
+# Loading work.mux4to1(fast)
+# tb_i=[0100] tb_s=[01]  tb_y=[x] Time=                   0
+# tb_i=[0100] tb_s=[11]  tb_y=[x] Time=                  10
+# tb_i=[0001] tb_s=[01]  tb_y=[x] Time=                  20
+# tb_i=[0001] tb_s=[11]  tb_y=[x] Time=                  30
+# tb_i=[1001] tb_s=[01]  tb_y=[x] Time=                  40
+# tb_i=[1001] tb_s=[11]  tb_y=[x] Time=                  50
+# tb_i=[0011] tb_s=[01]  tb_y=[1] Time=                  60
+# tb_i=[0011] tb_s=[11]  tb_y=[x] Time=                  70
+# tb_i=[1101] tb_s=[01]  tb_y=[x] Time=                  80
+# tb_i=[1101] tb_s=[11]  tb_y=[x] Time=                  90
+# tb_i=[1101] tb_s=[01]  tb_y=[x] Time=                 100
+# tb_i=[1101] tb_s=[11]  tb_y=[x] Time=                 110
+# tb_i=[0101] tb_s=[01]  tb_y=[x] Time=                 120
+# tb_i=[0101] tb_s=[11]  tb_y=[x] Time=                 130
+# tb_i=[0010] tb_s=[01]  tb_y=[1] Time=                 140
+# tb_i=[0010] tb_s=[11]  tb_y=[x] Time=                 150
+# tb_i=[0001] tb_s=[01]  tb_y=[x] Time=                 160
+# tb_i=[0001] tb_s=[11]  tb_y=[x] Time=                 170
+# tb_i=[1101] tb_s=[01]  tb_y=[x] Time=                 180
+# tb_i=[1101] tb_s=[11]  tb_y=[x] Time=                 190
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:04:16 on Aug 25,2025
+# vlog -reportprogress 300 mux4to1.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_tb
+# 
+# Top level modules:
+# 	mux4to1_tb
+# End time: 12:04:16 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:04:17 on Aug 25,2025, Elapsed time: 0:01:30
+# Errors: 0, Warnings: 0
+# vsim mux4to1_tb 
+# Start time: 12:04:17 on Aug 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.mux4to1_tb(fast)
+# Loading work.mux4to1(fast)
+# tb_i=[0100] tb_s=[00]  tb_y=x Time=                   0
+# tb_i=[0100] tb_s=[01]  tb_y=x Time=                   5
+# tb_i=[0100] tb_s=[10]  tb_y=1 Time=                  10
+# tb_i=[0100] tb_s=[11]  tb_y=x Time=                  15
+# tb_i=[0001] tb_s=[00]  tb_y=x Time=                  20
+# tb_i=[0001] tb_s=[01]  tb_y=x Time=                  25
+# tb_i=[0001] tb_s=[10]  tb_y=x Time=                  30
+# tb_i=[0001] tb_s=[11]  tb_y=x Time=                  35
+# tb_i=[1001] tb_s=[00]  tb_y=x Time=                  40
+# tb_i=[1001] tb_s=[01]  tb_y=x Time=                  45
+# tb_i=[1001] tb_s=[10]  tb_y=x Time=                  50
+# tb_i=[1001] tb_s=[11]  tb_y=x Time=                  55
+# tb_i=[0011] tb_s=[00]  tb_y=x Time=                  60
+# tb_i=[0011] tb_s=[01]  tb_y=1 Time=                  65
+# tb_i=[0011] tb_s=[10]  tb_y=x Time=                  70
+# tb_i=[0011] tb_s=[11]  tb_y=x Time=                  75
+# tb_i=[1101] tb_s=[00]  tb_y=x Time=                  80
+# tb_i=[1101] tb_s=[01]  tb_y=x Time=                  85
+# tb_i=[1101] tb_s=[10]  tb_y=1 Time=                  90
+# tb_i=[1101] tb_s=[11]  tb_y=x Time=                  95
+# tb_i=[1101] tb_s=[00]  tb_y=x Time=                 100
+# tb_i=[1101] tb_s=[01]  tb_y=x Time=                 105
+# tb_i=[1101] tb_s=[10]  tb_y=1 Time=                 110
+# tb_i=[1101] tb_s=[11]  tb_y=x Time=                 115
+# tb_i=[0101] tb_s=[00]  tb_y=x Time=                 120
+# tb_i=[0101] tb_s=[01]  tb_y=x Time=                 125
+# tb_i=[0101] tb_s=[10]  tb_y=1 Time=                 130
+# tb_i=[0101] tb_s=[11]  tb_y=x Time=                 135
+# tb_i=[0010] tb_s=[00]  tb_y=x Time=                 140
+# tb_i=[0010] tb_s=[01]  tb_y=1 Time=                 145
+# tb_i=[0010] tb_s=[10]  tb_y=x Time=                 150
+# tb_i=[0010] tb_s=[11]  tb_y=x Time=                 155
+# tb_i=[0001] tb_s=[00]  tb_y=x Time=                 160
+# tb_i=[0001] tb_s=[01]  tb_y=x Time=                 165
+# tb_i=[0001] tb_s=[10]  tb_y=x Time=                 170
+# tb_i=[0001] tb_s=[11]  tb_y=x Time=                 175
+# tb_i=[1101] tb_s=[00]  tb_y=x Time=                 180
+# tb_i=[1101] tb_s=[01]  tb_y=x Time=                 185
+# tb_i=[1101] tb_s=[10]  tb_y=1 Time=                 190
+# tb_i=[1101] tb_s=[11]  tb_y=x Time=                 195
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:06:49 on Aug 25,2025
+# vlog -reportprogress 300 mux4to1.v "+acc" 
+# -- Compiling module mux4to1
+# -- Compiling module mux4to1_tb
+# 
+# Top level modules:
+# 	mux4to1_tb
+# End time: 12:06:49 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:06:49 on Aug 25,2025, Elapsed time: 0:02:32
+# Errors: 0, Warnings: 0
+# vsim mux4to1_tb 
+# Start time: 12:06:49 on Aug 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.mux4to1_tb(fast)
+# Loading work.mux4to1(fast)
+# tb_i=[0100] tb_s=[00]  tb_y=0 Time=                   0
+# tb_i=[0100] tb_s=[01]  tb_y=0 Time=                   5
+# tb_i=[0100] tb_s=[10]  tb_y=1 Time=                  10
+# tb_i=[0100] tb_s=[11]  tb_y=0 Time=                  15
+# tb_i=[0001] tb_s=[00]  tb_y=1 Time=                  20
+# tb_i=[0001] tb_s=[01]  tb_y=0 Time=                  25
+# tb_i=[0001] tb_s=[10]  tb_y=0 Time=                  30
+# tb_i=[0001] tb_s=[11]  tb_y=0 Time=                  35
+# tb_i=[1001] tb_s=[00]  tb_y=1 Time=                  40
+# tb_i=[1001] tb_s=[01]  tb_y=0 Time=                  45
+# tb_i=[1001] tb_s=[10]  tb_y=0 Time=                  50
+# tb_i=[1001] tb_s=[11]  tb_y=1 Time=                  55
+# tb_i=[0011] tb_s=[00]  tb_y=1 Time=                  60
+# tb_i=[0011] tb_s=[01]  tb_y=1 Time=                  65
+# tb_i=[0011] tb_s=[10]  tb_y=0 Time=                  70
+# tb_i=[0011] tb_s=[11]  tb_y=0 Time=                  75
+# tb_i=[1101] tb_s=[00]  tb_y=1 Time=                  80
+# tb_i=[1101] tb_s=[01]  tb_y=0 Time=                  85
+# tb_i=[1101] tb_s=[10]  tb_y=1 Time=                  90
+# tb_i=[1101] tb_s=[11]  tb_y=1 Time=                  95
+# tb_i=[1101] tb_s=[00]  tb_y=1 Time=                 100
+# tb_i=[1101] tb_s=[01]  tb_y=0 Time=                 105
+# tb_i=[1101] tb_s=[10]  tb_y=1 Time=                 110
+# tb_i=[1101] tb_s=[11]  tb_y=1 Time=                 115
+# tb_i=[0101] tb_s=[00]  tb_y=1 Time=                 120
+# tb_i=[0101] tb_s=[01]  tb_y=0 Time=                 125
+# tb_i=[0101] tb_s=[10]  tb_y=1 Time=                 130
+# tb_i=[0101] tb_s=[11]  tb_y=0 Time=                 135
+# tb_i=[0010] tb_s=[00]  tb_y=0 Time=                 140
+# tb_i=[0010] tb_s=[01]  tb_y=1 Time=                 145
+# tb_i=[0010] tb_s=[10]  tb_y=0 Time=                 150
+# tb_i=[0010] tb_s=[11]  tb_y=0 Time=                 155
+# tb_i=[0001] tb_s=[00]  tb_y=1 Time=                 160
+# tb_i=[0001] tb_s=[01]  tb_y=0 Time=                 165
+# tb_i=[0001] tb_s=[10]  tb_y=0 Time=                 170
+# tb_i=[0001] tb_s=[11]  tb_y=0 Time=                 175
+# tb_i=[1101] tb_s=[00]  tb_y=1 Time=                 180
+# tb_i=[1101] tb_s=[01]  tb_y=0 Time=                 185
+# tb_i=[1101] tb_s=[10]  tb_y=1 Time=                 190
+# tb_i=[1101] tb_s=[11]  tb_y=1 Time=                 195
+quit -sim
+# End time: 12:10:20 on Aug 25,2025, Elapsed time: 0:03:31
+# Errors: 0, Warnings: 0

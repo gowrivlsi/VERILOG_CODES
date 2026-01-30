@@ -1,0 +1,82 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VERILOG CODES/GATE LEVEL STYLE/HALF SUBTRACTOR
+T_opt
+!s110 1755851374
+VC?`3;ofeZ4^`MD;fV=]5X3
+04 11 4 work half_sub_tb fast 0
+=1-f66444b558ee-68a82a6e-10f-4fa0
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vhalf_adder_tb
+!s110 1755850043
+!i10b 1
+!s100 1W1n9RTi1h`=VccHQFTX52
+IoMoFgHlCLmLz]e?>cE2XM0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1755850040
+Z3 8half_sub.v
+Z4 Fhalf_sub.v
+L0 8
+Z5 OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1755850043.000000
+Z6 !s107 half_sub.v|
+Z7 !s90 -reportprogress|300|half_sub.v|+acc|
+!i113 0
+Z8 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vhalf_sub
+Z9 !s110 1755851366
+!i10b 1
+!s100 =Nk=QV39`dfKH=>9hg;@j2
+IkK``Bz6aQX<ze1;_Zi[hO1
+R2
+R0
+Z10 w1755851250
+R3
+R4
+L0 1
+R5
+r1
+!s85 0
+31
+Z11 !s108 1755851366.000000
+R6
+R7
+!i113 0
+R8
+R1
+vhalf_sub_tb
+R9
+!i10b 1
+!s100 ?Oh3DXFBV<m3VZeak<QR=2
+ISBiGCL9g4bTmChRccb>fE2
+R2
+R0
+R10
+R3
+R4
+L0 8
+R5
+r1
+!s85 0
+31
+R11
+R6
+R7
+!i113 0
+R8
+R1

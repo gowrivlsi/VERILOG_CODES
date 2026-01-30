@@ -1,0 +1,46 @@
+Start time: 21:00:03 on Aug 28,2025
+qverilog rca_s.v 
+-- Compiling module full_adder
+-- Compiling module full_adder_tb
+-- Compiling module rca_s
+-- Compiling module rca_s_tb
+
+Top level modules:
+	full_adder_tb
+	rca_s_tb
+# vsim -lib work work.full_adder_tb work.rca_s_tb -c -do "run -all; quit -f" -appendlog -l qverilog.log -vopt 
+# ** Note: (vsim-3812) Design is being optimized...
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.full_adder_tb(fast)
+# Loading work.rca_s_tb(fast)
+# run -all
+# A= 9  B= 3  cin=1  G=0  s=13  cout=0 Time=0
+# A= 5  B= 2  cin=1  G=1  s= 3  cout=1 Time=10
+# A= 6  B=13  cin=1  G=0  s= 4  cout=1 Time=20
+# A= 9  B= 6  cin=1  G=1  s= 3  cout=1 Time=30
+# A= 5  B= 7  cin=1  G=0  s=13  cout=0 Time=40
+# A= 2  B=15  cin=1  G=1  s= 3  cout=0 Time=50
+# A= 2  B=14  cin=1  G=0  s= 1  cout=1 Time=60
+# A= 8  B= 5  cin=1  G=1  s= 3  cout=1 Time=70
+# A=12  B=13  cin=1  G=0  s=10  cout=1 Time=80
+# A=13  B= 5  cin=1  G=1  s= 8  cout=1 Time=90
+# A= 3  B=10  cin=1  G=0  s=14  cout=0 Time=100
+# A= 0  B= 0  cin=1  G=1  s= 0  cout=1 Time=110
+# A=10  B=13  cin=1  G=0  s= 8  cout=1 Time=120
+# A= 6  B= 3  cin=1  G=1  s= 3  cout=1 Time=130
+#  quit -f
+# End time: 21:00:04 on Aug 28,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

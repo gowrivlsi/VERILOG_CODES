@@ -1,0 +1,388 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+pwd
+# D:/VERILOG CODES/GATE LEVEL STYLE/HALF ADDER
+ls
+# half_adder.v  transcript          
+vlog half_adder.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:07:31 on Aug 22,2025
+# vlog -reportprogress 300 half_adder.v "+acc" 
+# -- Compiling module half_adder
+# -- Compiling module half_adder_tb
+# 
+# Top level modules:
+# 	half_adder_tb
+# End time: 12:07:31 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim half_adder_tb
+# vsim half_adder_tb 
+# Start time: 12:08:04 on Aug 22,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.half_adder_tb(fast)
+# Loading work.half_adder(fast)
+add wave *
+run -all
+# tb_a=0 tb_b=1 tb_sum=1 tb_carry=0
+vlog half_adder.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:10:58 on Aug 22,2025
+# vlog -reportprogress 300 half_adder.v "+acc" 
+# -- Compiling module half_adder
+# -- Compiling module half_adder_tb
+# 
+# Top level modules:
+# 	half_adder_tb
+# End time: 12:10:58 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim half_adder_tb
+# End time: 12:11:07 on Aug 22,2025, Elapsed time: 0:03:03
+# Errors: 0, Warnings: 0
+# vsim half_adder_tb 
+# Start time: 12:11:07 on Aug 22,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.half_adder_tb(fast)
+# Loading work.half_adder(fast)
+add wave *
+run -all
+# tb_a=1 tb_b=0 tb_sum=1 tb_carry=0
+quit -sim
+# End time: 12:11:30 on Aug 22,2025, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 0
+vlog half_adder.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:11:43 on Aug 22,2025
+# vlog -reportprogress 300 half_adder.v "+acc" 
+# -- Compiling module half_adder
+# -- Compiling module half_adder_tb
+# 
+# Top level modules:
+# 	half_adder_tb
+# End time: 12:11:44 on Aug 22,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim half_adder_tb
+# vsim half_adder_tb 
+# Start time: 12:11:58 on Aug 22,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.half_adder_tb(fast)
+# Loading work.half_adder(fast)
+add wave *
+run -all
+# tb_a=1 tb_b=0 tb_sum=1 tb_carry=0
+quit -sim
+# End time: 12:12:49 on Aug 22,2025, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 0
+vlog half_adder.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:12:52 on Aug 22,2025
+# vlog -reportprogress 300 half_adder.v "+acc" 
+# -- Compiling module half_adder
+# -- Compiling module half_adder_tb
+# 
+# Top level modules:
+# 	half_adder_tb
+# End time: 12:12:52 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim half_adder_tb
+# vsim half_adder_tb 
+# Start time: 12:12:55 on Aug 22,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.half_adder_tb(fast)
+# Loading work.half_adder(fast)
+add wave *
+run -all
+# tb_a=1 tb_b=0 tb_sum=1 tb_carry=0
+quit -sim
+# End time: 12:14:20 on Aug 22,2025, Elapsed time: 0:01:25
+# Errors: 0, Warnings: 0
+vlog half_adder.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:14:24 on Aug 22,2025
+# vlog -reportprogress 300 half_adder.v "+acc" 
+# -- Compiling module half_adder
+# -- Compiling module half_adder_tb
+# 
+# Top level modules:
+# 	half_adder_tb
+# End time: 12:14:24 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim half_adder_tb
+# vsim half_adder_tb 
+# Start time: 12:14:50 on Aug 22,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.half_adder_tb(fast)
+# Loading work.half_adder(fast)
+add wave *
+run -all
+# tb_a=0 tb_b=0 tb_sum=0 tb_carry=0
+# tb_a=1 tb_b=0 tb_sum=1 tb_carry=0
+run -all
+vlog half_adder.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:15:37 on Aug 22,2025
+# vlog -reportprogress 300 half_adder.v "+acc" 
+# -- Compiling module half_adder
+# -- Compiling module half_adder_tb
+# 
+# Top level modules:
+# 	half_adder_tb
+# End time: 12:15:37 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim half_adder_tb
+# End time: 12:15:43 on Aug 22,2025, Elapsed time: 0:00:53
+# Errors: 0, Warnings: 0
+# vsim half_adder_tb 
+# Start time: 12:15:44 on Aug 22,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.half_adder_tb(fast)
+# Loading work.half_adder(fast)
+add wave *
+run -all
+# tb_a=0 tb_b=1 tb_sum=1 tb_carry=0
+# tb_a=1 tb_b=1 tb_sum=0 tb_carry=1
+# tb_a=1 tb_b=0 tb_sum=1 tb_carry=0
+vlog half_adder.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:16:46 on Aug 22,2025
+# vlog -reportprogress 300 half_adder.v "+acc" 
+# -- Compiling module half_adder
+# -- Compiling module half_adder_tb
+# 
+# Top level modules:
+# 	half_adder_tb
+# End time: 12:16:46 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim half_adder_tb
+# End time: 12:16:49 on Aug 22,2025, Elapsed time: 0:01:05
+# Errors: 0, Warnings: 0
+# vsim half_adder_tb 
+# Start time: 12:16:49 on Aug 22,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.half_adder_tb(fast)
+# Loading work.half_adder(fast)
+add wave *
+run -all
+# tb_a=0 tb_b=1 tb_sum=1 tb_carry=0
+# tb_a=1 tb_b=1 tb_sum=0 tb_carry=1
+# tb_a=1 tb_b=0 tb_sum=1 tb_carry=0
+vlog half_adder.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:17:50 on Aug 22,2025
+# vlog -reportprogress 300 half_adder.v "+acc" 
+# -- Compiling module half_adder
+# -- Compiling module half_adder_tb
+# 
+# Top level modules:
+# 	half_adder_tb
+# End time: 12:17:50 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim half_adder_tb
+# End time: 12:17:54 on Aug 22,2025, Elapsed time: 0:01:05
+# Errors: 0, Warnings: 0
+# vsim half_adder_tb 
+# Start time: 12:17:54 on Aug 22,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.half_adder_tb(fast)
+# Loading work.half_adder(fast)
+add wave *
+run -all
+# tb_a=0 tb_b=1 tb_sum=1 tb_carry=0
+# tb_a=1 tb_b=1 tb_sum=0 tb_carry=1
+# tb_a=1 tb_b=0 tb_sum=1 tb_carry=0
+# tb_a=1 tb_b=1 tb_sum=0 tb_carry=1
+vlog half_adder.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:19:40 on Aug 22,2025
+# vlog -reportprogress 300 half_adder.v "+acc" 
+# -- Compiling module half_adder
+# -- Compiling module half_adder_tb
+# 
+# Top level modules:
+# 	half_adder_tb
+# End time: 12:19:40 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim half_adder_tb
+# End time: 12:19:43 on Aug 22,2025, Elapsed time: 0:01:49
+# Errors: 0, Warnings: 0
+# vsim half_adder_tb 
+# Start time: 12:19:43 on Aug 22,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.half_adder_tb(fast)
+# Loading work.half_adder(fast)
+run -all
+# tb_a=x tb_b=x tb_sum=x tb_carry=x
+# tb_a=0 tb_b=1 tb_sum=1 tb_carry=0
+# tb_a=1 tb_b=1 tb_sum=0 tb_carry=1
+# tb_a=1 tb_b=0 tb_sum=1 tb_carry=0
+# tb_a=1 tb_b=1 tb_sum=0 tb_carry=1
+vlog half_adder.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:22:03 on Aug 22,2025
+# vlog -reportprogress 300 half_adder.v "+acc" 
+# -- Compiling module half_adder
+# -- Compiling module half_adder_tb
+# 
+# Top level modules:
+# 	half_adder_tb
+# End time: 12:22:04 on Aug 22,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim half_adder_tb
+# End time: 12:22:22 on Aug 22,2025, Elapsed time: 0:02:39
+# Errors: 0, Warnings: 0
+# vsim half_adder_tb 
+# Start time: 12:22:22 on Aug 22,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.half_adder_tb(fast)
+# Loading work.half_adder(fast)
+run -all
+# tb_a=x tb_b=x tb_sum=x tb_carry=x time=0000000000000000000000000000000000000000000000000000000000000000
+# tb_a=0 tb_b=1 tb_sum=1 tb_carry=0 time=0000000000000000000000000000000000000000000000000000000000001010
+# tb_a=1 tb_b=1 tb_sum=0 tb_carry=1 time=0000000000000000000000000000000000000000000000000000000000010100
+# tb_a=1 tb_b=0 tb_sum=1 tb_carry=0 time=0000000000000000000000000000000000000000000000000000000000101000
+# tb_a=1 tb_b=1 tb_sum=0 tb_carry=1 time=0000000000000000000000000000000000000000000000000000000000110010
+vlog half_adder.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:23:28 on Aug 22,2025
+# vlog -reportprogress 300 half_adder.v "+acc" 
+# -- Compiling module half_adder
+# -- Compiling module half_adder_tb
+# 
+# Top level modules:
+# 	half_adder_tb
+# End time: 12:23:28 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim half_adder_tb
+# End time: 12:23:31 on Aug 22,2025, Elapsed time: 0:01:09
+# Errors: 0, Warnings: 0
+# vsim half_adder_tb 
+# Start time: 12:23:31 on Aug 22,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.half_adder_tb(fast)
+# Loading work.half_adder(fast)
+run -all
+# tb_a=x tb_b=x tb_sum=x tb_carry=x time=0
+# tb_a=0 tb_b=1 tb_sum=1 tb_carry=0 time=10
+# tb_a=1 tb_b=1 tb_sum=0 tb_carry=1 time=20
+# tb_a=1 tb_b=0 tb_sum=1 tb_carry=0 time=40
+# tb_a=1 tb_b=1 tb_sum=0 tb_carry=1 time=50
+vlog half_adder.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:24:04 on Aug 22,2025
+# vlog -reportprogress 300 half_adder.v "+acc" 
+# -- Compiling module half_adder
+# -- Compiling module half_adder_tb
+# 
+# Top level modules:
+# 	half_adder_tb
+# End time: 12:24:04 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim half_adder_tb
+# End time: 12:24:07 on Aug 22,2025, Elapsed time: 0:00:36
+# Errors: 0, Warnings: 0
+# vsim half_adder_tb 
+# Start time: 12:24:07 on Aug 22,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.half_adder_tb(fast)
+# Loading work.half_adder(fast)
+add wave *
+run -all
+# tb_a=x tb_b=x tb_sum=x tb_carry=x time=0
+# tb_a=0 tb_b=1 tb_sum=1 tb_carry=0 time=10
+# tb_a=1 tb_b=1 tb_sum=0 tb_carry=1 time=20
+# tb_a=1 tb_b=0 tb_sum=1 tb_carry=0 time=40
+# tb_a=1 tb_b=1 tb_sum=0 tb_carry=1 time=50
+vlog half_adder.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:26:08 on Aug 22,2025
+# vlog -reportprogress 300 half_adder.v "+acc" 
+# -- Compiling module half_adder
+# -- Compiling module half_adder_tb
+# 
+# Top level modules:
+# 	half_adder_tb
+# End time: 12:26:08 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim half_adder_tb
+# End time: 12:26:11 on Aug 22,2025, Elapsed time: 0:02:04
+# Errors: 0, Warnings: 0
+# vsim half_adder_tb 
+# Start time: 12:26:11 on Aug 22,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.half_adder_tb(fast)
+# Loading work.half_adder(fast)
+add wave *
+run -all
+# tb_a=1 tb_b=1 tb_sum=0 tb_carry=1 time=                   0
+vlog half_adder.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:27:58 on Aug 22,2025
+# vlog -reportprogress 300 half_adder.v "+acc" 
+# -- Compiling module half_adder
+# -- Compiling module half_adder_tb
+# 
+# Top level modules:
+# 	half_adder_tb
+# End time: 12:27:58 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim half_adder_tb
+# End time: 12:28:01 on Aug 22,2025, Elapsed time: 0:01:50
+# Errors: 0, Warnings: 0
+# vsim half_adder_tb 
+# Start time: 12:28:01 on Aug 22,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.half_adder_tb(fast)
+# Loading work.half_adder(fast)
+add wave *
+run -all
+# tb_a=1 tb_b=1 tb_sum=0 tb_carry=1 time=0
+vlog half_adder.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:29:52 on Aug 22,2025
+# vlog -reportprogress 300 half_adder.v "+acc" 
+# -- Compiling module half_adder
+# -- Compiling module half_adder_tb
+# 
+# Top level modules:
+# 	half_adder_tb
+# End time: 12:29:52 on Aug 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim half_adder_tb
+# End time: 12:29:55 on Aug 22,2025, Elapsed time: 0:01:54
+# Errors: 0, Warnings: 0
+# vsim half_adder_tb 
+# Start time: 12:29:55 on Aug 22,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.half_adder_tb(fast)
+# Loading work.half_adder(fast)
+add wave *
+run -all
+# tb_a=0 tb_b=1 tb_sum=1 tb_carry=0 time=0
+# tb_a=1 tb_b=1 tb_sum=0 tb_carry=1 time=5
+# tb_a=1 tb_b=0 tb_sum=1 tb_carry=0 time=15
+vsim -debugDB half_adder_tb
+# End time: 12:31:27 on Aug 22,2025, Elapsed time: 0:01:32
+# Errors: 0, Warnings: 0
+# vsim -debugDB half_adder_tb 
+# Start time: 12:31:27 on Aug 22,2025
+# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# Loading work.half_adder_tb(fast)
+# Loading work.half_adder(fast)
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+quit -sim
+# End time: 12:34:33 on Aug 22,2025, Elapsed time: 0:03:06
+# Errors: 0, Warnings: 2

@@ -1,0 +1,61 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VERILOG CODES/GATE LEVEL STYLE/1TO4 DMUX
+T_opt
+!s110 1756116795
+VQ?aMK=j[?;;dRHX<AC=1X0
+04 11 4 work dmux1to4_tb fast 0
+=1-f66444b558ee-68ac373b-1a7-4588
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vdmux1to4
+Z2 !s110 1756116792
+!i10b 1
+!s100 <^T^SWjEF1GH74@>_UHPJ0
+IDGi_KCGX3_23S>j@=IE9B1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1756116784
+Z5 8dmux1to4.v
+Z6 Fdmux1to4.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1756116792.000000
+Z9 !s107 dmux1to4.v|
+Z10 !s90 -reportprogress|300|dmux1to4.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vdmux1to4_tb
+R2
+!i10b 1
+!s100 k=YleGhRU:2VE4>?zTZCF3
+IKDH>nz:<OF1eai7HGV^1a2
+R3
+R0
+R4
+R5
+R6
+L0 13
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
