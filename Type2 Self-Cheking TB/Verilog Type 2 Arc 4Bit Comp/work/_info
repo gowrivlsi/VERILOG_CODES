@@ -1,0 +1,82 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/VERILOG CODES/Type2 Self-Cheking TB/Verilog Type 2 Arc 4Bit Comp
+T_opt
+!s110 1763046556
+VkOn7Vm]A;FXcb@ncPoH6k3
+04 3 4 work top fast 0
+=1-9ac3c3f168e9-6915f49c-1ca-5324
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vcomp4b
+Z2 !s110 1763046555
+!i10b 1
+!s100 _c[TXj0RN`KKQNn3BWHYo0
+IMeR2<5g6ielQMb]fzkT9K2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1763046552
+Z5 8comp4b.v
+Z6 Fcomp4b.v
+L0 2
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1763046555.000000
+Z9 !s107 comp4b.v|top.v|
+Z10 !s90 -reportprogress|300|top.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vcomp4b_tb
+R2
+!i10b 1
+!s100 WSOlI@RRZ:?N>izdldLP90
+I4lz5E5MU>n0JeD_VfmaVR3
+R3
+R0
+R4
+R5
+R6
+L0 19
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vtop
+R2
+!i10b 1
+!s100 o3[AO_2mea[Z6IP>VoO[a1
+I6EhO^RPi;E@AkmJNeTcSi2
+R3
+R0
+w1763045915
+8top.v
+Ftop.v
+L0 4
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1

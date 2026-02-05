@@ -1,0 +1,92 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/VERILOG CODES/Type2 Self-Cheking TB/Verilog Type 2 Arch Full_Adder
+T_opt
+Z1 !s110 1762944712
+VR=GbXf;XRm8icPfGN`YLE0
+Z2 04 3 4 work top fast 0
+=1-264930b3a74c-691466c8-1af-5f3c
+o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1762944746
+V3ZVE:VQLR?IFbkLk6AjY42
+R2
+=1-264930b3a74c-691466ea-1d7-54bc
+o-quiet -auto_acc_if_foreign -work work -debugdb
+R3
+n@_opt1
+R4
+vfull_adder
+R1
+!i10b 1
+!s100 KzLD=;71b_2h<nQVcAPES2
+ID^9_Ez4Q@ZNN?RhCc=0f[0
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1762943157
+8full_adder.v
+Ffull_adder.v
+L0 2
+Z6 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z7 !s108 1762944711.000000
+Z8 !s107 full_adder_tb.v|full_adder.v|full_adder_top.v|
+Z9 !s90 -reportprogress|300|full_adder_top.v|+acc|
+!i113 0
+Z10 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vfull_adder_tb
+R1
+!i10b 1
+!s100 lNEY^Cf^d<cP0j5lKK2eL2
+IFhV0aUfOFAM:ohf;6]6zV3
+R5
+R0
+Z11 w1762944605
+8full_adder_tb.v
+Ffull_adder_tb.v
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R3
+vtop
+R1
+!i10b 1
+!s100 Kn3a3K<^Q0[nSHQO2L]oo3
+IAFLfocGF2Nj^5o0?SI_4z2
+R5
+R0
+R11
+8full_adder_top.v
+Ffull_adder_top.v
+L0 4
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R3

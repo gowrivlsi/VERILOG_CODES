@@ -1,0 +1,134 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do half_run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:53:57 on Nov 12,2025
+# vlog -reportprogress 300 half_adder_top.v "+acc" 
+# -- Compiling module half_adder
+# -- Compiling module half_adder_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 11:53:58 on Nov 12,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -debugDB top 
+# Start time: 11:53:58 on Nov 12,2025
+# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# Loading work.top(fast)
+# Loading work.half_adder(fast)
+# Loading work.half_adder_tb(fast)
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+# ** Info: ==========TEST FAILED===========
+#    Time: 0 ns  Scope: top.tb.sb File: half_adder_tb.v Line: 34
+# A=0,B=0,SUM=x,CARRY=x,S1=0,C1=0
+do half_run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:59:23 on Nov 12,2025
+# vlog -reportprogress 300 half_adder_top.v "+acc" 
+# -- Compiling module half_adder
+# -- Compiling module half_adder_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 11:59:23 on Nov 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:59:25 on Nov 12,2025, Elapsed time: 0:05:27
+# Errors: 0, Warnings: 2
+# vsim -debugDB top 
+# Start time: 11:59:25 on Nov 12,2025
+# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# Loading work.top(fast)
+# Loading work.half_adder(fast)
+# Loading work.half_adder_tb(fast)
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+# ** Info: ==========TEST FAILED===========
+#    Time: 0 ns  Scope: top.tb.sb File: half_adder_tb.v Line: 34
+# A=0,B=0,SUM=z,CARRY=z,S1=0,C1=0
+do half_run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:00:34 on Nov 12,2025
+# vlog -reportprogress 300 half_adder_top.v "+acc" 
+# -- Compiling module half_adder
+# -- Compiling module half_adder_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:00:34 on Nov 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:00:35 on Nov 12,2025, Elapsed time: 0:01:10
+# Errors: 0, Warnings: 2
+# vsim -debugDB top 
+# Start time: 12:00:35 on Nov 12,2025
+# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# Loading work.top(fast)
+# Loading work.half_adder(fast)
+# Loading work.half_adder_tb(fast)
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+# ** Info: ==========TEST PASSED===========
+#    Time: 10 ns  Scope: top.tb.sb File: half_adder_tb.v Line: 29
+# A=0,B=0,SUM=0,CARRY=0,S1=0,C1=0
+do half_run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:21:17 on Nov 12,2025
+# vlog -reportprogress 300 half_adder_top.v "+acc" 
+# -- Compiling module half_adder
+# -- Compiling module half_adder_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:21:18 on Nov 12,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 12:21:19 on Nov 12,2025, Elapsed time: 0:20:44
+# Errors: 0, Warnings: 2
+# vsim -debugDB top 
+# Start time: 12:21:19 on Nov 12,2025
+# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# Loading work.top(fast)
+# Loading work.half_adder(fast)
+# Loading work.half_adder_tb(fast)
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+# ** Info: ==========TEST PASSED===========
+#    Time: 10 ns  Scope: top.tb.sb File: half_adder_tb.v Line: 29
+# A=0,B=0,SUM=0,CARRY=0,S1=0,C1=0
+# ** Info: ==========TEST PASSED===========
+#    Time: 20 ns  Scope: top.tb.sb File: half_adder_tb.v Line: 29
+# A=0,B=1,SUM=1,CARRY=0,S1=1,C1=0
+# ** Info: ==========TEST PASSED===========
+#    Time: 30 ns  Scope: top.tb.sb File: half_adder_tb.v Line: 29
+# A=0,B=1,SUM=1,CARRY=0,S1=1,C1=0
+# ** Info: ==========TEST PASSED===========
+#    Time: 40 ns  Scope: top.tb.sb File: half_adder_tb.v Line: 29
+# A=1,B=1,SUM=0,CARRY=1,S1=0,C1=1
+# ** Info: ==========TEST PASSED===========
+#    Time: 50 ns  Scope: top.tb.sb File: half_adder_tb.v Line: 29
+# A=0,B=1,SUM=1,CARRY=0,S1=1,C1=0
+# End time: 12:40:30 on Nov 12,2025, Elapsed time: 0:19:11
+# Errors: 0, Warnings: 2
