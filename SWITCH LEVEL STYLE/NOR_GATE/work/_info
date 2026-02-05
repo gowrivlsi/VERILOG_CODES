@@ -1,0 +1,113 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples
+T_opt
+!s110 1755530541
+VPeC^>8kcAb>06G@N[K78X1
+04 11 4 work nor_gate_tb fast 0
+=1-5aaf652cda57-68a3452d-288-68c
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1755531649
+V7<Qmi`43MV38I>2i;U:g52
+04 11 4 work xor_gate_tb fast 0
+=1-5aaf652cda57-68a34981-7f-2e74
+R1
+R2
+n@_opt1
+R3
+vnor_gate
+Z4 !s110 1755530440
+!i10b 1
+!s100 F]AnDbRE]NT55^_iQOE8b1
+I_jll5QPW8Ug=Dfk4gBFRT3
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dD:/VERILOG CODES/SWITCH LEVEL STYLE/NOR_GATE
+w1755530366
+8D:\VERILOG CODES\SWITCH LEVEL STYLE\NOR_GATE\nor_gate.v
+FD:\VERILOG CODES\SWITCH LEVEL STYLE\NOR_GATE\nor_gate.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1755530440.000000
+!s107 D:\VERILOG CODES\SWITCH LEVEL STYLE\NOR_GATE\nor_gate.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\VERILOG CODES\SWITCH LEVEL STYLE\NOR_GATE\nor_gate.v|
+!i113 0
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vnor_gate_tb
+R4
+!i10b 1
+!s100 KI3[f;ETV2h3TP95d0SZ]2
+IOSd:0NW>?U>A=FlF<1cPd0
+R5
+R6
+w1755530430
+8D:\VERILOG CODES\SWITCH LEVEL STYLE\NOR_GATE\nor_gate_tb.v
+FD:\VERILOG CODES\SWITCH LEVEL STYLE\NOR_GATE\nor_gate_tb.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:\VERILOG CODES\SWITCH LEVEL STYLE\NOR_GATE\nor_gate_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\VERILOG CODES\SWITCH LEVEL STYLE\NOR_GATE\nor_gate_tb.v|
+!i113 0
+R9
+R2
+vxor_gate
+Z10 !s110 1755531431
+!i10b 1
+!s100 >Tb4APoa;fLY>h8XIjmAT3
+ICSJ2HfWQ:Qm7;l3S6zzn51
+R5
+R6
+w1755531322
+8D:/VERILOG CODES/SWITCH LEVEL STYLE/XOR_GATE/xor_gate.v
+FD:/VERILOG CODES/SWITCH LEVEL STYLE/XOR_GATE/xor_gate.v
+L0 1
+R7
+r1
+!s85 0
+31
+Z11 !s108 1755531431.000000
+!s107 D:/VERILOG CODES/SWITCH LEVEL STYLE/XOR_GATE/xor_gate.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/VERILOG CODES/SWITCH LEVEL STYLE/XOR_GATE/xor_gate.v|
+!i113 0
+R9
+R2
+vxor_gate_tb
+R10
+!i10b 1
+!s100 nTe5V0dibMl03RcV^:YDn3
+ISNiXoGC0_0[>lDcTg5oQd0
+R5
+R6
+w1755511942
+8D:/VERILOG CODES/SWITCH LEVEL STYLE/XOR_GATE/xor_gate_tb.v
+FD:/VERILOG CODES/SWITCH LEVEL STYLE/XOR_GATE/xor_gate_tb.v
+L0 1
+R7
+r1
+!s85 0
+31
+R11
+!s107 D:/VERILOG CODES/SWITCH LEVEL STYLE/XOR_GATE/xor_gate_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/VERILOG CODES/SWITCH LEVEL STYLE/XOR_GATE/xor_gate_tb.v|
+!i113 0
+R9
+R2

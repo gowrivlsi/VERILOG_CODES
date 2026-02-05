@@ -1,0 +1,72 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VERILOG CODES/SWITCH LEVEL STYLE/XNOR_GATE
+T_opt
+!s110 1755537131
+Vno=VWFzEn1nkQXoN_N4FT2
+04 11 4 work not_gate_tb fast 0
+=1-5aaf652cda57-68a35eeb-30d-5498
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+Z2 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1756966916
+V>;b?E4VX<j_JjP8nAe6oA0
+04 8 4 work not_gate fast 0
+=1-d62ee7ee8a52-68b93004-126-36f4
+o-quiet -auto_acc_if_foreign -work work
+R1
+n@_opt1
+R2
+R0
+vnot_gate
+!s110 1756967110
+!i10b 1
+!s100 >KnYHZgb`m;?hDJ[EYKh60
+I=TJg:@^C7NPG2Noad;oEg3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+dD:/VLSI/VERILOG CODES/SWITCH LEVEL STYLE/NOT_GATE
+w1756966645
+8not_gate.v
+Fnot_gate.v
+L0 1
+Z4 OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1756967110.000000
+!s107 not_gate_tb.v|not_gate.v|
+!s90 -reportprogress|300|not_gate.v|not_gate_tb.v|+acc|
+!i113 0
+o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vnot_gate_tb
+!s110 1755537114
+!i10b 1
+!s100 0OLzWhG8R9jNJP9hJ:KUl0
+IQN3KMgJAD[ALS3SFX7f[j1
+R3
+dD:/VERILOG CODES/SWITCH LEVEL STYLE/NOT_GATE
+w1755537105
+8D:\VERILOG CODES\SWITCH LEVEL STYLE\NOT_GATE\not_gate_tb.v
+FD:\VERILOG CODES\SWITCH LEVEL STYLE\NOT_GATE\not_gate_tb.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1755537114.000000
+!s107 D:\VERILOG CODES\SWITCH LEVEL STYLE\NOT_GATE\not_gate_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\VERILOG CODES\SWITCH LEVEL STYLE\NOT_GATE\not_gate_tb.v|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1

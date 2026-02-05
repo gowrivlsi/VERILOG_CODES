@@ -1,0 +1,176 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VERILOG CODES/SWITCH LEVEL STYLE/FULL ADDER US 1 HA
+T_opt
+!s110 1755675482
+VJ_MSzR2>;7]0GnL]2?5P53
+Z1 04 15 4 work full_adder_1_tb fast 0
+=1-f66444b558ee-68a57b5a-28e-5604
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1755676992
+VF>Pdc50]dehQgY]OT976k1
+R1
+=1-f66444b558ee-68a58140-15f-16d0
+o-quiet -auto_acc_if_foreign -work work -debugdb
+R2
+n@_opt1
+R3
+vand_gate
+Z4 !s110 1755675479
+!i10b 1
+!s100 _73]9X<a3VAaLVX4K7N`P0
+I2G388Go1`IVD5]HW?6lV<1
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1755601186
+8and_gate.v
+Fand_gate.v
+L0 1
+Z6 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z7 !s108 1755675479.000000
+Z8 !s107 or_gate.v|xor_gate.v|and_gate.v|half_adder.v|full_adder_1.v|
+Z9 !s90 -reportprogress|300|full_adder_1.v|+acc|
+!i113 0
+Z10 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vfull_adder_1
+R4
+!i10b 1
+!s100 o@:S<T5af8B6Zgiz4g7Hk0
+IT8O;J<8OZVfW9nV:0dA<h1
+R5
+R0
+Z11 w1755675472
+Z12 8full_adder_1.v
+Z13 Ffull_adder_1.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vfull_adder_1_tb
+R4
+!i10b 1
+!s100 Ao5z=3hnWoO?48?E=9DN30
+I`I08G:da2Y=_dmKMLQdgJ3
+R5
+R0
+R11
+R12
+R13
+L0 33
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vhalf_adder
+R4
+!i10b 1
+!s100 ]3IQnRoIadYc=mBKI8=f<2
+Il<^j<?jXPfM33V@URkMc[2
+R5
+R0
+Z14 w1755675086
+Z15 8half_adder.v
+Z16 Fhalf_adder.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vhalf_adder_tb
+R4
+!i10b 1
+!s100 <WGgNIeZc@:RHPRe@MbVH3
+IVEnQ=B=4;Dba>h<9J?l3`0
+R5
+R0
+R14
+R15
+R16
+L0 21
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vor_gate
+R4
+!i10b 1
+!s100 F<cL@3n?Ki4z83JaI08gB2
+IR6QjdndXXJ>]WCkb]S=Sn3
+R5
+R0
+w1755534289
+8or_gate.v
+For_gate.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vxor_gate
+R4
+!i10b 1
+!s100 >Tb4APoa;fLY>h8XIjmAT3
+IJP1BXQkz=k3UF6Y17C]DM1
+R5
+R0
+w1755601112
+8xor_gate.v
+Fxor_gate.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2

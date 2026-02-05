@@ -1,0 +1,263 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VERILOG CODES/SWITCH LEVEL STYLE/16B RCA
+T_opt
+!s110 1755763667
+VjlV_KH@YTB4HUIdCfl]lZ1
+Z1 04 10 4 work rca_16B_tb fast 0
+=1-f66444b558ee-68a6d3d3-29e-4b30
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1755763376
+V>;CZSYTHCdR0DZaTl0n>]0
+R1
+=1-f66444b558ee-68a6d2b0-16f-dcc
+o-quiet -auto_acc_if_foreign -work work -debugdb
+R2
+n@_opt1
+R3
+R0
+vand_gate
+Z4 !s110 1755847772
+!i10b 1
+!s100 _73]9X<a3VAaLVX4K7N`P0
+I2G388Go1`IVD5]HW?6lV<1
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1755601186
+8and_gate.v
+Fand_gate.v
+L0 1
+Z6 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z7 !s108 1755847772.000000
+!s107 or_gate.v|xor_gate.v|and_gate.v|half_adder.v|full_adder_1.v|rca.v|rca_16B.v|
+Z8 !s90 -reportprogress|300|rca_16B.v|+acc|
+!i113 0
+Z9 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vfull_adder_1
+R4
+!i10b 1
+!s100 o@:S<T5af8B6Zgiz4g7Hk0
+IT8O;J<8OZVfW9nV:0dA<h1
+R5
+R0
+Z10 w1755675472
+Z11 8full_adder_1.v
+Z12 Ffull_adder_1.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+Z13 !s107 or_gate.v|xor_gate.v|and_gate.v|half_adder.v|full_adder_1.v|rca.v|rca_16B.v|
+R8
+!i113 0
+R9
+R2
+vfull_adder_1_tb
+R4
+!i10b 1
+!s100 Ao5z=3hnWoO?48?E=9DN30
+I`I08G:da2Y=_dmKMLQdgJ3
+R5
+R0
+R10
+R11
+R12
+L0 33
+R6
+r1
+!s85 0
+31
+R7
+R13
+R8
+!i113 0
+R9
+R2
+vhalf_adder
+R4
+!i10b 1
+!s100 ]3IQnRoIadYc=mBKI8=f<2
+Il<^j<?jXPfM33V@URkMc[2
+R5
+R0
+Z14 w1755675086
+Z15 8half_adder.v
+Z16 Fhalf_adder.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+R13
+R8
+!i113 0
+R9
+R2
+vhalf_adder_tb
+R4
+!i10b 1
+!s100 <WGgNIeZc@:RHPRe@MbVH3
+IVEnQ=B=4;Dba>h<9J?l3`0
+R5
+R0
+R14
+R15
+R16
+L0 21
+R6
+r1
+!s85 0
+31
+R7
+R13
+R8
+!i113 0
+R9
+R2
+vor_gate
+R4
+!i10b 1
+!s100 F<cL@3n?Ki4z83JaI08gB2
+IR6QjdndXXJ>]WCkb]S=Sn3
+R5
+R0
+w1755534289
+8or_gate.v
+For_gate.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R13
+R8
+!i113 0
+R9
+R2
+vrca
+R4
+!i10b 1
+!s100 kceXgVnho80>aAgZ=0LXg3
+Ie3JNjMlWFEYC;>zVe@`lh0
+R5
+R0
+Z17 w1755688385
+Z18 8rca.v
+Z19 Frca.v
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+R13
+R8
+!i113 0
+R9
+R2
+vrca_16B
+R4
+!i10b 1
+!s100 efZROQSc<DWbdoF`heFWD1
+IW4laBiA_9dRibof_:2L[g1
+R5
+R0
+Z20 w1755763656
+Z21 8rca_16B.v
+Z22 Frca_16B.v
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+R13
+R8
+!i113 0
+R9
+R2
+nrca_16@b
+vrca_16B_tb
+R4
+!i10b 1
+!s100 k<;oNDO<mgXE^DFW@`FSE3
+Im;IVcCY`LP7S]:;2A;aEY3
+R5
+R0
+R20
+R21
+R22
+L0 46
+R6
+r1
+!s85 0
+31
+R7
+R13
+R8
+!i113 0
+R9
+R2
+nrca_16@b_tb
+vrca_tb
+R4
+!i10b 1
+!s100 CAFbOjfW7Zcjc5glB[YJM0
+I4[dl]2lleI6^:l^I^6Ue22
+R5
+R0
+R17
+R18
+R19
+L0 49
+R6
+r1
+!s85 0
+31
+R7
+R13
+R8
+!i113 0
+R9
+R2
+vxor_gate
+R4
+!i10b 1
+!s100 >Tb4APoa;fLY>h8XIjmAT3
+IJP1BXQkz=k3UF6Y17C]DM1
+R5
+R0
+w1755601112
+8xor_gate.v
+Fxor_gate.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R13
+R8
+!i113 0
+R9
+R2
